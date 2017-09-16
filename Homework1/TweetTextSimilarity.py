@@ -1,11 +1,10 @@
 # Note: Due to time constraints on how long tweets are maintained, we are using a pregathered dataset instead of the
 # results of our webcrawling for this homework
-
-from math import *
 import pandas as pd
 import random
 import numpy as np
 
+from SimilarityFunctions import *
 
 # Takes N random samples from the passed csv
 def random_row_selector(n, csv_file_path):
@@ -24,9 +23,46 @@ def get_number_of_csv_rows(path):
     return row_count
 
 
-# Returns an N x N array
-def create_array(n):
+# Returns an N x N matrix
+def create_matrix(n):
     return np.zeros(shape=(n,n))
 
 
-#random_row_selector(10, "C:/Users/Zakery/Documents/GitHub/TwitterDataAnalytics/Datasets/Hurricane_Harvey.csv")
+def create_levenshtein_distance_matrix(series):
+    matrix = create_matrix(len(series))
+
+    for i in range(0, len(series)):
+        tweet1 = series[i]
+        for j in range(0, len(series)):
+            tweet2 = series[j]
+            matrix[i,j] = levenshtein(tweet1, tweet2)
+
+    return matrix
+
+def create_matching_ratio_matrix(series):
+    matrix = create_matrix(len(series))
+
+    for i in range(0, len(series)):
+        tweet1 = series[i]
+        for j in range(0, len(series)):
+            tweet2 = series[j]
+            matrix[i,j] = matching_words_ratio(tweet1, tweet2)
+
+    return matrix
+
+def create_cosine_distance_matrix(series):
+    matrix = create_matrix(len(series))
+
+    for i in range(0, len(series)):
+        tweet1 = series[i]
+        for j in range(0, len(series)):
+            tweet2 = series[j]
+            matrix[i,j] = cosine_similarity(tweet1, tweet2)
+
+    return matrix
+
+df = random_row_selector(10, "C:/Users/Zakery/Documents/GitHub/TwitterDataAnalytics/Datasets/Hurricane_Harvey.csv")
+df.columns = ["count", "id", "likes", "replies", "retweets", "time", "tweet"]
+df = df.iloc[:, 6]
+
+

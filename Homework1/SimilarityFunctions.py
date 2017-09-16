@@ -1,5 +1,5 @@
 import numpy as np
-from math import *
+import math
 import re
 from collections import Counter
 WORD = re.compile(r'\w+')
@@ -37,8 +37,8 @@ def levenshtein(source, target):
 
 # Returns the ratio of words in S2 that also appear in S1.
 def matching_words_ratio(s1, s2):
-    s1_list = s1.split()
-    s2_list = s2.split()
+    s1_list = s1.lower().split()
+    s2_list = s2.lower().split()
     return len((set(s1_list).intersection(s2_list)))/len(s2_list)
 
 
@@ -61,3 +61,9 @@ def get_cosine(vec1, vec2):
 def text_to_vector(text):
     words = WORD.findall(text)
     return Counter(words)
+
+def cosine_similarity(s1, s2):
+    s1_vec = text_to_vector(s1)
+    s2_vec = text_to_vector(s2)
+
+    return get_cosine(s1_vec, s2_vec)
