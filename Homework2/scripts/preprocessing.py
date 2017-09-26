@@ -16,7 +16,7 @@ def get_stop_words_list():
 
 def remove_stop_words(tweet, stopWords):
     
-    filtered_words = [w for w in tokens if not w in stopwords.words('english')]
+    filtered_words = [w for w in tokens if not w in stopWords.words('english')]
     return " ".join(filtered_words)
 
 def filter_data():
