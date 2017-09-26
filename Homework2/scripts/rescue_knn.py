@@ -8,7 +8,7 @@ Created on Mon Sep 25 15:42:48 2017
 
 import numpy as np
 import pandas as pd
-from sklearn.metrics import f1_score
+from sklearn.metrics import precision_score, recall_score, f1_score
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.model_selection import train_test_split
 from sklearn.feature_extraction.text import CountVectorizer
@@ -36,7 +36,7 @@ class HarveyRescueKNN(object):
         
         self.X_train, self.X_test, self.y_train, self.y_true = train_test_split(tweets, categories, train_size=self.train_size, random_state=4332)
 
-    def classify(self, k=2):
+    def classify(self, k=2, p=2):
         
         stop_words_list = self.get_stop_words_list()
         vectorizer = CountVectorizer(stop_words=stop_words_list )
@@ -46,18 +46,29 @@ class HarveyRescueKNN(object):
         test_features = vectorizer.transform(self.X_test)
         test_features = test_features.toarray()
         
-        rescue_detector = KNeighborsClassifier(n_neighbors=k, p=2, n_jobs=-1)
+        rescue_detector = KNeighborsClassifier(n_neighbors=k, p=p, n_jobs=-1)
         rescue_detector.fit(train_features, self.y_train)
         
         y_pred = rescue_detector.predict(test_features)
         
-        print( f1_score(self.y_true, y_pred, labels=['Non-Rescue', 'Rescue'], pos_label='Rescue' ) )
+        recallScore = recall_score( self.y_true, y_pred, labels=['Non-Rescue', 'Rescue'], pos_label='Rescue' )
+        precisionScore = precision_score( self.y_true, y_pred, labels=['Non-Rescue', 'Rescue'], pos_label='Rescue' )
+        f1Score = f1_score( self.y_true, y_pred, labels=['Non-Rescue', 'Rescue'], pos_label='Rescue' )
+        
+        return recallScore, precisionScore, f1Score
         
         
         
 def main():
-    clf = HarveyRescueKNN()
-    clf.classify(k=3)
+    
+    for k in range(1, 20):
+        
+        clf = HarveyRescueKNN()
+        
+        results = clf.classify(k=k, p=2)
+        print(k, results[0], results[1], results[2])
+    
+    print()
 
 
 if __name__ == '__main__':
