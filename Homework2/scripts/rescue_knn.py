@@ -60,12 +60,12 @@ class HarveyRescueKNN(object):
         
         
 def main():
+
+    clf = HarveyRescueKNN()
     
-    for k in range(1, 20):
+    for k in range(1, 50):
         
-        clf = HarveyRescueKNN()
-        
-        results = clf.classify(k=k, p=2)
+        results = clf.classify(k=k, p=1)
         print(k, results[0], results[1], results[2])
     
     print()
