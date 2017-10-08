@@ -69,12 +69,11 @@ class HarveyRescue(object):
         
         return self.compute_fScore(self.y_true, y_pred)
 
-    def classify_with_SVM(self, c = 1000):
+    def classify_with_SVM(self, c = 1000, kernel = 'rbf'):
         
         train_features, test_features = self.extract_features()
 
-
-        svm_clf = SVC(C = c, kernel='rbf')
+        svm_clf = SVC(C = c, kernel=kernel)
         svm_clf.fit(train_features, self.y_train)
         
         y_pred = svm_clf.predict(test_features)
@@ -82,7 +81,7 @@ class HarveyRescue(object):
         return self.compute_fScore(self.y_true, y_pred)
         
 def kNN_classifier():
-    
+
     for k in range(1, 21):
         
         clf = HarveyRescue()
@@ -95,11 +94,13 @@ def kNN_classifier():
 def svm_classifier():
     
     clf = HarveyRescue()
-
-    for c in xrange(100, 5000, 100):
-        results = clf.classify_with_SVM(c)
-        print(c, results[0], results[1], results[2])
-        print()
+    for kernel in ('linear', 'poly', 'rbf'):
+        print("Kernel Type: " + kernel)
+        for c in xrange(100, 5000, 100):
+            results = clf.classify_with_SVM(c, kernel)
+            print(c, results[0], results[1], results[2])
+            print()
+        print("========")
 
 
 if __name__ == '__main__':
