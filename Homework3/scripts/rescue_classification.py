@@ -94,7 +94,7 @@ def kNN_classifier():
 def svm_classifier():
     
     clf = HarveyRescue()
-    for kernel in ('linear', 'poly', 'rbf'):
+    for kernel in ('linear', 'poly', 'rbf', 'sigmoid'):
         print("Kernel Type: " + kernel)
         for c in xrange(100, 5000, 100):
             results = clf.classify_with_SVM(c, kernel)
