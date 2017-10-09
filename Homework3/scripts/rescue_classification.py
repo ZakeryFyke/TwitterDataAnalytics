@@ -13,15 +13,17 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.svm import SVC
 from sklearn.model_selection import train_test_split
 from sklearn.feature_extraction.text import CountVectorizer
-
+from nltk.stem import PorterStemmer
+import nltk, string
 
 class HarveyRescue(object):
     
     def __init__(self, train_size=0.6):
         
         self.train_size = train_size
-        
         self.load_dataset()
+        
+        self.stemmer = PorterStemmer()
 
     def get_stop_words_list(self):
         
@@ -37,12 +39,28 @@ class HarveyRescue(object):
         
         self.X_train, self.X_test, self.y_train, self.y_true = train_test_split(tweets, categories, train_size=self.train_size, random_state=4332)
 
+    def tokenize_and_stem(self, text):
+        
+        tokens = nltk.tokenize.word_tokenize(text)
+        # strip out punctuation and make lowercase
+        tokens = [token.lower().strip(string.punctuation)
+                  for token in tokens if token.isalnum()]
+    
+        # now stem the tokens
+        tokens = [self.stemmer.stem(token) for token in tokens]
+    
+        return tokens
+    
     def extract_features(self):
         
         stop_words_list = self.get_stop_words_list()
-        vectorizer = CountVectorizer(stop_words=stop_words_list, max_df=0.1 )
+        
+        
+        vectorizer = CountVectorizer(stop_words=stop_words_list, tokenizer=self.tokenize_and_stem)
         
         train_features = vectorizer.fit_transform(self.X_train)
+        
+        #print( vectorizer.get_feature_names() )
         
         test_features = vectorizer.transform(self.X_test)
         test_features = test_features.toarray()
@@ -69,11 +87,11 @@ class HarveyRescue(object):
         
         return self.compute_fScore(self.y_true, y_pred)
 
-    def classify_with_SVM(self, c = 1000, kernel = 'rbf'):
+    def classify_with_SVM(self, c = 1000, kernel = 'rbf', degree = 5):
         
         train_features, test_features = self.extract_features()
 
-        svm_clf = SVC(C = c, kernel=kernel)
+        svm_clf = SVC(C = c, kernel=kernel, degree=degree)
         svm_clf.fit(train_features, self.y_train)
         
         y_pred = svm_clf.predict(test_features)
@@ -96,15 +114,20 @@ def svm_classifier():
     clf = HarveyRescue()
     for kernel in ('linear', 'poly', 'rbf', 'sigmoid'):
         print("Kernel Type: " + kernel)
-        for c in xrange(100, 5000, 100):
-            results = clf.classify_with_SVM(c, kernel)
+        for c in [0.001, 0.01, 0.1, 1, 10, 100, 1000, 10000]:
+            results = clf.classify_with_SVM(c=c, kernel=kernel)
             print(c, results[0], results[1], results[2])
             print()
+            #break
         print("========")
+        #break
 
 
 if __name__ == '__main__':
     #print('kNN Classification')
     #kNN_classifier()
+    
     print('SVM Classification')
     svm_classifier()
+    
+    
