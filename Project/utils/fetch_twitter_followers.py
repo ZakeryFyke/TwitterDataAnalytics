@@ -3,7 +3,10 @@ import time
 import csv
 import os
 
-
+consumer_key =''
+consumer_secret=''
+access_token=''
+access_secret=''
 
 directoryPath = os.getcwd()
 
@@ -13,19 +16,15 @@ auth.set_access_token(access_token, access_secret)
 api = tweepy.API(auth)
 
 screenNames = ["SenSanders", "CoryBooker", "SenWarren", "marcorubio", "SenJohnMcCain", "RandPaul", "SenTedCruz",
-                "SenSchumer", "KamalaHarris", "timkaine"]
-
-#screenNames = ["OSPyoutube"]
+                 "SenSchumer", "KamalaHarris", "timkaine"]
 
 ids = []
-
-#print (tweepy.Cursor(api.followers_ids, screen_name="timkaine").items)
 
 for senator in screenNames:
     i = 0
     ids = []
     for page in tweepy.Cursor(api.followers_ids, screen_name=senator).pages():
-        print("Currently on page " + str(i) + " for senator" + senator)
+        print("Currently on page " + str(i) + " for senator " + senator)
         if i == 100: # Gather 500,000 followers for each person
             break
         stringPage = [str(x) for x in page]
@@ -38,8 +37,3 @@ for senator in screenNames:
         writer = csv.writer(f)
         for val in ids:
             writer.writerow([val])
-
-
-    # resultFile = open(directoryPath + "/" + senator + 'followers.csv','wb')
-    # wr = csv.writer(resultFile, delimiter=",")
-    # wr.writerows([ids])
