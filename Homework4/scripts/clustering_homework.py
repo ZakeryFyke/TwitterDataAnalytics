@@ -78,4 +78,4 @@ if __name__ == '__main__':
     #hw_cluster.explore_dataset()
     #hw_cluster.kMeans_clustering(4)
     #hw_cluster.dbscan_clustering()
-    hw_cluster.spectral_clustering(4)
+    hw_cluster.spectral_clustering(2)

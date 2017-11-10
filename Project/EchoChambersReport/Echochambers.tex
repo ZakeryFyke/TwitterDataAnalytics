@@ -1,0 +1,94 @@
+\documentclass[journal]{IEEEtran}
+
+\usepackage{epsfig}
+\usepackage{graphicx}
+\usepackage{url}
+\usepackage{cite}
+\usepackage{epstopdf}
+\usepackage{subcaption}
+\usepackage{amsmath}
+\usepackage{multirow}
+
+
+\begin{document}
+
+
+\title{I Think What I Hear, The Influence of Social Media on Political Ideologies}
+
+
+\author{
+	\IEEEauthorblockN{
+		\textbf{Richard Matovu and Zakery Fyke \\ 
+			Texas Tech University, Lubbock, TX, US}
+	}
+}
+
+% The paper headers
+\markboth{CSC 5331 - Data Analytics Project by Dr. Fang Jin}%
+{Shell \MakeLowercase{\textit{et al.}}: Bare Demo of IEEEtran.cls for IEEE Journals}
+
+
+% make the title area
+\maketitle
+
+
+
+% For peer review papers, you can put extra information on the cover
+% page as needed:
+% \ifCLASSOPTIONpeerreview
+% \begin{center} \bfseries EDICS Category: 3-BBND \end{center}
+% \fi
+%
+% For peerreview papers, this IEEEtran command inserts a page break and
+% creates the second title. It will be ignored for other modes.
+\IEEEpeerreviewmaketitle
+
+
+
+\section{Introduction}
+
+Echo Chambers are the metaphorical description given to the situation in which beliefs, information, and ideas are reinforced or cemented inside a defined system. A common example is an individual exclusively associating themselves with those who agree with or share their ideals. The Echo Chamber then reinforces one’s own present world view because of the lack of exchange of dialogue with those who hold a different point of view. The advent of Social Media has allowed Echo Chambers to be formed more easily than ever, and with over 60\% of Americans getting their news from Social Media according to a study by Pew Research Center, this problem could be getting worse. Analysis of the data found on Twitter may allow us to locate these Echo Chambers present based on the political party divide.
+
+\section{Motivation}
+
+Social Echo Chambers have become a hot topic as, especially in public media, as many believe that the formation of Echo Chambers is leading to a radicalization of political views on both sides of the party divide, making it more and more difficult for both sides to find a common ground, and leading to social unrest. This inability to find common ground between the two parties makes it more and more difficult for the two to find compromises that both sides will accept, leading to events like the 2013 Shutdown of the Federal Government when both sides were unable to find a compromise on the Federal Debt Ceiling. 
+
+We are interested in seeing if we can find and visualize the formation of these Echo Chambers by utilizing the information available on social media, namely by analyzing tweets found on Twitter. Twitter is one of the largest Social Media platforms in the world, and with the politically charged atmosphere currently present in the United States, we believe we will be able to find lots of data which will help us identify these Echo Chambers. Is it possible to visualize the formation of these Echo Chambers on Twitter by analyzing the data we gather? If so, can we find what factors lead to the formation of these Echo Chambers and possibly identify some common ground between the two parties that might be used to break them? 
+
+\section{Related Work}
+
+The effects of conversations happening in cyberspace have a very real and measureable impact in the real world. Hamton et al found  in 2016 that “Twitter users who felt their audience on Twitter agreed with their opinion were more willing to speak out on that issue in the workplace”.  There have been numerous methodologies used to locate and visualize the Echo Chambers that become present in social media, including work done by Barberá et al which assumed that decisions about whom to follow on social media platforms such as Twitter would convey information about that individual’s political preferences; relying on the connections between users, instead of analyzing the text of the user's tweets themselves. 
+
+The topic of whether or not ideological polarization is exhibited in online exchanges is still an open debate among researchers. Conover et al found that political ideology could be predicted with a high level of accuracy by analyzing tweets of the users. By contrast, Bakshy et al found that there was very little online ideological segregation in absolute terms, with open exchanges and exposure to ideological differences being fairly common. Variations like these are common between studies, and one reason for them might be that some studies use a self-selected sample of partisan individuals, while other studies have not. 
+
+With some similarity to the topic of whether ideological polarization even exists in online exchanges, which side of the political spectrum would be more likely to engage in selective exposure to information -- information which confirms the opinions which they already hold -- is still an open topic with a variety of answers from different researchers. While not the direct focus of our studies, it should be noted in the prereferral that different studies have found different results. The ones performed by Bakshy et al found that liberals are much more likely than conservatives to engage in cross-ideological dissemination of political and nonpolitical information, which stands in contrast to the rising belief of many that liberals, especially those on college campuses, have formed their own echo chambers. 
+
+\section{Methodology}
+
+To complete this task, we will be collecting Twitter data through web crawling techniques, including, but not limited to, the Twitter API using R. The data that we collect with be focusing on top United States politicians who have the largest following on Twitter, as their political affiliation is already known, as are their Twitter Handles. We will also supplement this data with pre-collected Twitter datasets during the time period of the last Presidential Election. We will then analyze the data we collect by comparing the collections of each politician’s followers, to see if those who follow a particular influential member of one party are unlikely to follow members of the other party. 
+
+Expanding upon this, we will then attempt to visualize who the followers of these politicians are following, so that we can get a total view of any sort of Echo Chamber that may have been formed between these groups. For example, might we find that those Twitter users who follow a particular party are very unlikely to follow particular celebrities or corporate leaders? With this, we can classify the followers of these politicians into different Echo Chambers. 
+
+Once this visualization has been done, we will then attempt to identify which topics are important to each of our groups and the sentiment which they have towards this topic. For example, both sides may frequently discuss issues like Gun Control, but one group may have a negative outlook on it, while the other may have a positive outlook on it. We will then use this analysis to attempt to predict which of our Echo Chambers a person falls into based on their tweets contained in our dataset from the Presidential Campaign.
+
+\subsection{Dataset}
+
+For our dataset, we will be utilizing a collection of approximately 280 million tweets which were collected between July 13, 2016 and November 10, 2016 by Justin Littman et al and made available through Harvard University’s Dataverse. These tweets are divided into collections based on when they occurred, who they concern, and events they concern. We will be using a subset of these tweets in our analysis and Echo Chamber predictions. 
+
+\subsection{Implementation}
+
+First, we will analyze the lists of Twitter follows of the most influential US politicians. These may include, but are not limited to, President Donald J. Trump, Senators Bernie Sanders, Elizabeth Warren, and Ted Cruz, among others. We will compare these lists to find if followers of one group are less likely to follow the members of the other. Our assumption is that those who follow members of one party are unlikely to follow members of the other party. After, we will visualize who these followers are following, in a similar method. Again, we would expect to see a divide between who the groups are following, thus giving the symptoms of an Echo Chamber. This visualization will likely be performed utilizing Python or R, or even a mixture of the two. 
+
+Once this is complete, the next phase will be to analyze the Tweets sent out by these politicians to find the topics which they discuss most frequently and the sentiment given to these topics. For example, while both sides of the political spectrum are likely to discuss Gun Control, Immigration, and Taxes, they often discuss these with varying amounts of positivity or negativity. We assume that their followers, members of their Echo Chamber, are likely to hold these beliefs as well. 
+
+Forming a training and testing set from our original Echo Chamber model, based on who is following who, we can then use our analysis of the topics each side finds important to classify tweets based on their messages, without having to have knowledge of who the person is following. 
+
+	
+\section{Conclusion}
+
+It seems that with each passing year, American Politics is becoming more and more divided along party lines, and each year it is becoming harder for the two sides to find compromises between them that will make both parties happy. The formation of Echo Chambers, which reinforce one’s own worldview and make it more difficult to consider the validity of another person’s view, have largely contributed to this. By utilizing the data collected from Twitter, we can identify what causes these Echo Chambers to form, and may be able to find what can break them.
+
+% \bibliographystyle{IEEEtran}
+% \bibliography{IEEEabrv,references}
+
+\end{document}
