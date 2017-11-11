@@ -37,3 +37,19 @@ for senator in screenNames:
         writer = csv.writer(f)
         for val in ids:
             writer.writerow([val])
+
+def sortfollowerscsv():
+    os.chdir('..')
+
+    directoryPath = os.getcwd() + '\SenatorDataSets'
+
+    # Grab the follower csvs from the datasets folder
+    csvPaths = [directoryPath + '/' + p for p in os.listdir(directoryPath) if 'followers' in p]
+
+    for path in csvPaths:
+        reader = csv.reader(open(path), delimiter=";")
+        sortedlist = sorted(reader, key=lambda x: int(x[0]))
+        with open(path, 'wb') as f:
+            writer = csv.writer(f)
+            writer.writerows(sortedlist)
+        print("Finished sorting " + path)
