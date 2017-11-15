@@ -3,96 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="fd5a7e40-9599-489c-8458-bd25a64807c5" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/SenatorDatasets/CoryBooker_KamalaHarris_SharedFollowers.csv" afterPath="$PROJECT_DIR$/Project/SenatorDatasets/CoryBooker_KamalaHarris_SharedFollowers.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/SenatorDatasets/CoryBooker_RandPaul_SharedFollowers.csv" afterPath="$PROJECT_DIR$/Project/SenatorDatasets/CoryBooker_RandPaul_SharedFollowers.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/SenatorDatasets/CoryBooker_SenJohnMcCain_SharedFollowers.csv" afterPath="$PROJECT_DIR$/Project/SenatorDatasets/CoryBooker_SenJohnMcCain_SharedFollowers.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/SenatorDatasets/CoryBooker_SenSanders_SharedFollowers.csv" afterPath="$PROJECT_DIR$/Project/SenatorDatasets/CoryBooker_SenSanders_SharedFollowers.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/SenatorDatasets/CoryBooker_SenSchumer_SharedFollowers.csv" afterPath="$PROJECT_DIR$/Project/SenatorDatasets/CoryBooker_SenSchumer_SharedFollowers.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/SenatorDatasets/CoryBooker_SenTedCruz_SharedFollowers.csv" afterPath="$PROJECT_DIR$/Project/SenatorDatasets/CoryBooker_SenTedCruz_SharedFollowers.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/SenatorDatasets/CoryBooker_SenWarren_SharedFollowers.csv" afterPath="$PROJECT_DIR$/Project/SenatorDatasets/CoryBooker_SenWarren_SharedFollowers.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/SenatorDatasets/CoryBooker_marcorubio_SharedFollowers.csv" afterPath="$PROJECT_DIR$/Project/SenatorDatasets/CoryBooker_marcorubio_SharedFollowers.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/SenatorDatasets/CoryBooker_timkaine_SharedFollowers.csv" afterPath="$PROJECT_DIR$/Project/SenatorDatasets/CoryBooker_timkaine_SharedFollowers.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/SenatorDatasets/KamalaHarris_KamalaHarris_SharedFollowers.csv" afterPath="$PROJECT_DIR$/Project/SenatorDatasets/KamalaHarris_KamalaHarris_SharedFollowers.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/SenatorDatasets/KamalaHarris_RandPaul_SharedFollowers.csv" afterPath="$PROJECT_DIR$/Project/SenatorDatasets/KamalaHarris_RandPaul_SharedFollowers.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/SenatorDatasets/KamalaHarris_SenJohnMcCain_SharedFollowers.csv" afterPath="$PROJECT_DIR$/Project/SenatorDatasets/KamalaHarris_SenJohnMcCain_SharedFollowers.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/SenatorDatasets/KamalaHarris_SenSanders_SharedFollowers.csv" afterPath="$PROJECT_DIR$/Project/SenatorDatasets/KamalaHarris_SenSanders_SharedFollowers.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/SenatorDatasets/KamalaHarris_SenSchumer_SharedFollowers.csv" afterPath="$PROJECT_DIR$/Project/SenatorDatasets/KamalaHarris_SenSchumer_SharedFollowers.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/SenatorDatasets/KamalaHarris_SenTedCruz_SharedFollowers.csv" afterPath="$PROJECT_DIR$/Project/SenatorDatasets/KamalaHarris_SenTedCruz_SharedFollowers.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/SenatorDatasets/KamalaHarris_SenWarren_SharedFollowers.csv" afterPath="$PROJECT_DIR$/Project/SenatorDatasets/KamalaHarris_SenWarren_SharedFollowers.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/SenatorDatasets/KamalaHarris_marcorubio_SharedFollowers.csv" afterPath="$PROJECT_DIR$/Project/SenatorDatasets/KamalaHarris_marcorubio_SharedFollowers.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/SenatorDatasets/KamalaHarris_timkaine_SharedFollowers.csv" afterPath="$PROJECT_DIR$/Project/SenatorDatasets/KamalaHarris_timkaine_SharedFollowers.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/SenatorDatasets/RandPaul_KamalaHarris_SharedFollowers.csv" afterPath="$PROJECT_DIR$/Project/SenatorDatasets/RandPaul_KamalaHarris_SharedFollowers.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/SenatorDatasets/RandPaul_RandPaul_SharedFollowers.csv" afterPath="$PROJECT_DIR$/Project/SenatorDatasets/RandPaul_RandPaul_SharedFollowers.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/SenatorDatasets/RandPaul_SenJohnMcCain_SharedFollowers.csv" afterPath="$PROJECT_DIR$/Project/SenatorDatasets/RandPaul_SenJohnMcCain_SharedFollowers.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/SenatorDatasets/RandPaul_SenSanders_SharedFollowers.csv" afterPath="$PROJECT_DIR$/Project/SenatorDatasets/RandPaul_SenSanders_SharedFollowers.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/SenatorDatasets/RandPaul_SenSchumer_SharedFollowers.csv" afterPath="$PROJECT_DIR$/Project/SenatorDatasets/RandPaul_SenSchumer_SharedFollowers.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/SenatorDatasets/RandPaul_SenTedCruz_SharedFollowers.csv" afterPath="$PROJECT_DIR$/Project/SenatorDatasets/RandPaul_SenTedCruz_SharedFollowers.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/SenatorDatasets/RandPaul_SenWarren_SharedFollowers.csv" afterPath="$PROJECT_DIR$/Project/SenatorDatasets/RandPaul_SenWarren_SharedFollowers.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/SenatorDatasets/RandPaul_marcorubio_SharedFollowers.csv" afterPath="$PROJECT_DIR$/Project/SenatorDatasets/RandPaul_marcorubio_SharedFollowers.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/SenatorDatasets/RandPaul_timkaine_SharedFollowers.csv" afterPath="$PROJECT_DIR$/Project/SenatorDatasets/RandPaul_timkaine_SharedFollowers.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/SenatorDatasets/SenJohnMcCain_KamalaHarris_SharedFollowers.csv" afterPath="$PROJECT_DIR$/Project/SenatorDatasets/SenJohnMcCain_KamalaHarris_SharedFollowers.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/SenatorDatasets/SenJohnMcCain_RandPaul_SharedFollowers.csv" afterPath="$PROJECT_DIR$/Project/SenatorDatasets/SenJohnMcCain_RandPaul_SharedFollowers.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/SenatorDatasets/SenJohnMcCain_SenJohnMcCain_SharedFollowers.csv" afterPath="$PROJECT_DIR$/Project/SenatorDatasets/SenJohnMcCain_SenJohnMcCain_SharedFollowers.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/SenatorDatasets/SenJohnMcCain_SenSanders_SharedFollowers.csv" afterPath="$PROJECT_DIR$/Project/SenatorDatasets/SenJohnMcCain_SenSanders_SharedFollowers.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/SenatorDatasets/SenJohnMcCain_SenSchumer_SharedFollowers.csv" afterPath="$PROJECT_DIR$/Project/SenatorDatasets/SenJohnMcCain_SenSchumer_SharedFollowers.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/SenatorDatasets/SenJohnMcCain_SenTedCruz_SharedFollowers.csv" afterPath="$PROJECT_DIR$/Project/SenatorDatasets/SenJohnMcCain_SenTedCruz_SharedFollowers.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/SenatorDatasets/SenJohnMcCain_SenWarren_SharedFollowers.csv" afterPath="$PROJECT_DIR$/Project/SenatorDatasets/SenJohnMcCain_SenWarren_SharedFollowers.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/SenatorDatasets/SenJohnMcCain_marcorubio_SharedFollowers.csv" afterPath="$PROJECT_DIR$/Project/SenatorDatasets/SenJohnMcCain_marcorubio_SharedFollowers.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/SenatorDatasets/SenJohnMcCain_timkaine_SharedFollowers.csv" afterPath="$PROJECT_DIR$/Project/SenatorDatasets/SenJohnMcCain_timkaine_SharedFollowers.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/SenatorDatasets/SenSanders_KamalaHarris_SharedFollowers.csv" afterPath="$PROJECT_DIR$/Project/SenatorDatasets/SenSanders_KamalaHarris_SharedFollowers.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/SenatorDatasets/SenSanders_RandPaul_SharedFollowers.csv" afterPath="$PROJECT_DIR$/Project/SenatorDatasets/SenSanders_RandPaul_SharedFollowers.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/SenatorDatasets/SenSanders_SenJohnMcCain_SharedFollowers.csv" afterPath="$PROJECT_DIR$/Project/SenatorDatasets/SenSanders_SenJohnMcCain_SharedFollowers.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/SenatorDatasets/SenSanders_SenSanders_SharedFollowers.csv" afterPath="$PROJECT_DIR$/Project/SenatorDatasets/SenSanders_SenSanders_SharedFollowers.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/SenatorDatasets/SenSanders_SenSchumer_SharedFollowers.csv" afterPath="$PROJECT_DIR$/Project/SenatorDatasets/SenSanders_SenSchumer_SharedFollowers.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/SenatorDatasets/SenSanders_SenTedCruz_SharedFollowers.csv" afterPath="$PROJECT_DIR$/Project/SenatorDatasets/SenSanders_SenTedCruz_SharedFollowers.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/SenatorDatasets/SenSanders_SenWarren_SharedFollowers.csv" afterPath="$PROJECT_DIR$/Project/SenatorDatasets/SenSanders_SenWarren_SharedFollowers.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/SenatorDatasets/SenSanders_marcorubio_SharedFollowers.csv" afterPath="$PROJECT_DIR$/Project/SenatorDatasets/SenSanders_marcorubio_SharedFollowers.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/SenatorDatasets/SenSanders_timkaine_SharedFollowers.csv" afterPath="$PROJECT_DIR$/Project/SenatorDatasets/SenSanders_timkaine_SharedFollowers.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/SenatorDatasets/SenSchumer_KamalaHarris_SharedFollowers.csv" afterPath="$PROJECT_DIR$/Project/SenatorDatasets/SenSchumer_KamalaHarris_SharedFollowers.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/SenatorDatasets/SenSchumer_RandPaul_SharedFollowers.csv" afterPath="$PROJECT_DIR$/Project/SenatorDatasets/SenSchumer_RandPaul_SharedFollowers.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/SenatorDatasets/SenSchumer_SenJohnMcCain_SharedFollowers.csv" afterPath="$PROJECT_DIR$/Project/SenatorDatasets/SenSchumer_SenJohnMcCain_SharedFollowers.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/SenatorDatasets/SenSchumer_SenSanders_SharedFollowers.csv" afterPath="$PROJECT_DIR$/Project/SenatorDatasets/SenSchumer_SenSanders_SharedFollowers.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/SenatorDatasets/SenSchumer_SenSchumer_SharedFollowers.csv" afterPath="$PROJECT_DIR$/Project/SenatorDatasets/SenSchumer_SenSchumer_SharedFollowers.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/SenatorDatasets/SenSchumer_SenTedCruz_SharedFollowers.csv" afterPath="$PROJECT_DIR$/Project/SenatorDatasets/SenSchumer_SenTedCruz_SharedFollowers.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/SenatorDatasets/SenSchumer_SenWarren_SharedFollowers.csv" afterPath="$PROJECT_DIR$/Project/SenatorDatasets/SenSchumer_SenWarren_SharedFollowers.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/SenatorDatasets/SenSchumer_marcorubio_SharedFollowers.csv" afterPath="$PROJECT_DIR$/Project/SenatorDatasets/SenSchumer_marcorubio_SharedFollowers.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/SenatorDatasets/SenSchumer_timkaine_SharedFollowers.csv" afterPath="$PROJECT_DIR$/Project/SenatorDatasets/SenSchumer_timkaine_SharedFollowers.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/SenatorDatasets/SenTedCruz_KamalaHarris_SharedFollowers.csv" afterPath="$PROJECT_DIR$/Project/SenatorDatasets/SenTedCruz_KamalaHarris_SharedFollowers.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/SenatorDatasets/SenTedCruz_RandPaul_SharedFollowers.csv" afterPath="$PROJECT_DIR$/Project/SenatorDatasets/SenTedCruz_RandPaul_SharedFollowers.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/SenatorDatasets/SenTedCruz_SenJohnMcCain_SharedFollowers.csv" afterPath="$PROJECT_DIR$/Project/SenatorDatasets/SenTedCruz_SenJohnMcCain_SharedFollowers.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/SenatorDatasets/SenTedCruz_SenSanders_SharedFollowers.csv" afterPath="$PROJECT_DIR$/Project/SenatorDatasets/SenTedCruz_SenSanders_SharedFollowers.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/SenatorDatasets/SenTedCruz_SenSchumer_SharedFollowers.csv" afterPath="$PROJECT_DIR$/Project/SenatorDatasets/SenTedCruz_SenSchumer_SharedFollowers.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/SenatorDatasets/SenTedCruz_SenTedCruz_SharedFollowers.csv" afterPath="$PROJECT_DIR$/Project/SenatorDatasets/SenTedCruz_SenTedCruz_SharedFollowers.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/SenatorDatasets/SenTedCruz_SenWarren_SharedFollowers.csv" afterPath="$PROJECT_DIR$/Project/SenatorDatasets/SenTedCruz_SenWarren_SharedFollowers.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/SenatorDatasets/SenTedCruz_marcorubio_SharedFollowers.csv" afterPath="$PROJECT_DIR$/Project/SenatorDatasets/SenTedCruz_marcorubio_SharedFollowers.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/SenatorDatasets/SenTedCruz_timkaine_SharedFollowers.csv" afterPath="$PROJECT_DIR$/Project/SenatorDatasets/SenTedCruz_timkaine_SharedFollowers.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/SenatorDatasets/SenWarren_KamalaHarris_SharedFollowers.csv" afterPath="$PROJECT_DIR$/Project/SenatorDatasets/SenWarren_KamalaHarris_SharedFollowers.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/SenatorDatasets/SenWarren_RandPaul_SharedFollowers.csv" afterPath="$PROJECT_DIR$/Project/SenatorDatasets/SenWarren_RandPaul_SharedFollowers.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/SenatorDatasets/SenWarren_SenJohnMcCain_SharedFollowers.csv" afterPath="$PROJECT_DIR$/Project/SenatorDatasets/SenWarren_SenJohnMcCain_SharedFollowers.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/SenatorDatasets/SenWarren_SenSanders_SharedFollowers.csv" afterPath="$PROJECT_DIR$/Project/SenatorDatasets/SenWarren_SenSanders_SharedFollowers.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/SenatorDatasets/SenWarren_SenSchumer_SharedFollowers.csv" afterPath="$PROJECT_DIR$/Project/SenatorDatasets/SenWarren_SenSchumer_SharedFollowers.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/SenatorDatasets/SenWarren_SenTedCruz_SharedFollowers.csv" afterPath="$PROJECT_DIR$/Project/SenatorDatasets/SenWarren_SenTedCruz_SharedFollowers.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/SenatorDatasets/SenWarren_SenWarren_SharedFollowers.csv" afterPath="$PROJECT_DIR$/Project/SenatorDatasets/SenWarren_SenWarren_SharedFollowers.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/SenatorDatasets/SenWarren_marcorubio_SharedFollowers.csv" afterPath="$PROJECT_DIR$/Project/SenatorDatasets/SenWarren_marcorubio_SharedFollowers.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/SenatorDatasets/SenWarren_timkaine_SharedFollowers.csv" afterPath="$PROJECT_DIR$/Project/SenatorDatasets/SenWarren_timkaine_SharedFollowers.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/SenatorDatasets/marcorubio_KamalaHarris_SharedFollowers.csv" afterPath="$PROJECT_DIR$/Project/SenatorDatasets/marcorubio_KamalaHarris_SharedFollowers.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/SenatorDatasets/marcorubio_RandPaul_SharedFollowers.csv" afterPath="$PROJECT_DIR$/Project/SenatorDatasets/marcorubio_RandPaul_SharedFollowers.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/SenatorDatasets/marcorubio_SenJohnMcCain_SharedFollowers.csv" afterPath="$PROJECT_DIR$/Project/SenatorDatasets/marcorubio_SenJohnMcCain_SharedFollowers.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/SenatorDatasets/marcorubio_SenSanders_SharedFollowers.csv" afterPath="$PROJECT_DIR$/Project/SenatorDatasets/marcorubio_SenSanders_SharedFollowers.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/SenatorDatasets/marcorubio_SenSchumer_SharedFollowers.csv" afterPath="$PROJECT_DIR$/Project/SenatorDatasets/marcorubio_SenSchumer_SharedFollowers.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/SenatorDatasets/marcorubio_SenTedCruz_SharedFollowers.csv" afterPath="$PROJECT_DIR$/Project/SenatorDatasets/marcorubio_SenTedCruz_SharedFollowers.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/SenatorDatasets/marcorubio_SenWarren_SharedFollowers.csv" afterPath="$PROJECT_DIR$/Project/SenatorDatasets/marcorubio_SenWarren_SharedFollowers.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/SenatorDatasets/marcorubio_marcorubio_SharedFollowers.csv" afterPath="$PROJECT_DIR$/Project/SenatorDatasets/marcorubio_marcorubio_SharedFollowers.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/SenatorDatasets/marcorubio_timkaine_SharedFollowers.csv" afterPath="$PROJECT_DIR$/Project/SenatorDatasets/marcorubio_timkaine_SharedFollowers.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/SenatorDatasets/timkaine_KamalaHarris_SharedFollowers.csv" afterPath="$PROJECT_DIR$/Project/SenatorDatasets/timkaine_KamalaHarris_SharedFollowers.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/SenatorDatasets/timkaine_RandPaul_SharedFollowers.csv" afterPath="$PROJECT_DIR$/Project/SenatorDatasets/timkaine_RandPaul_SharedFollowers.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/SenatorDatasets/timkaine_SenJohnMcCain_SharedFollowers.csv" afterPath="$PROJECT_DIR$/Project/SenatorDatasets/timkaine_SenJohnMcCain_SharedFollowers.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/SenatorDatasets/timkaine_SenSanders_SharedFollowers.csv" afterPath="$PROJECT_DIR$/Project/SenatorDatasets/timkaine_SenSanders_SharedFollowers.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/SenatorDatasets/timkaine_SenSchumer_SharedFollowers.csv" afterPath="$PROJECT_DIR$/Project/SenatorDatasets/timkaine_SenSchumer_SharedFollowers.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/SenatorDatasets/timkaine_SenTedCruz_SharedFollowers.csv" afterPath="$PROJECT_DIR$/Project/SenatorDatasets/timkaine_SenTedCruz_SharedFollowers.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/SenatorDatasets/timkaine_SenWarren_SharedFollowers.csv" afterPath="$PROJECT_DIR$/Project/SenatorDatasets/timkaine_SenWarren_SharedFollowers.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/SenatorDatasets/timkaine_marcorubio_SharedFollowers.csv" afterPath="$PROJECT_DIR$/Project/SenatorDatasets/timkaine_marcorubio_SharedFollowers.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/SenatorDatasets/timkaine_timkaine_SharedFollowers.csv" afterPath="$PROJECT_DIR$/Project/SenatorDatasets/timkaine_timkaine_SharedFollowers.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/utils/fetch_twitter_followers.py" afterPath="$PROJECT_DIR$/Project/utils/fetch_twitter_followers.py" />
     </list>
     <ignored path="TwitterDataAnalytics.iws" />
@@ -125,11 +35,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fetch_twitter_followers.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="fetch_twitter_followers.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Project/utils/fetch_twitter_followers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="46" column="52" selection-start-line="46" selection-start-column="52" selection-end-line="46" selection-end-column="52" />
+            <state relative-caret-position="231">
+              <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -150,7 +60,7 @@
       <file leaf-file-name="fetch_tweets_by_id.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Project/utils/fetch_tweets_by_id.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
+            <state relative-caret-position="884">
               <caret line="52" column="16" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
@@ -159,11 +69,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="get_shared_followers.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="get_shared_followers.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Project/utils/get_shared_followers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state relative-caret-position="221">
+              <caret line="13" column="68" selection-start-line="13" selection-start-column="68" selection-end-line="13" selection-end-column="68" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -589,7 +499,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3308668" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3308668" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -963,8 +873,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Project/utils/fetch_tweets_by_id.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
+        <state relative-caret-position="884">
           <caret line="52" column="16" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Project/utils/fetch_twitter_followers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
@@ -973,20 +893,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Project/utils/get_shared_followers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state relative-caret-position="221">
+          <caret line="13" column="68" selection-start-line="13" selection-start-column="68" selection-end-line="13" selection-end-column="68" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Project/utils/fetch_twitter_followers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="46" column="52" selection-start-line="46" selection-start-column="52" selection-end-line="46" selection-end-column="52" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>

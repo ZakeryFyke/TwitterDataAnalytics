@@ -3,7 +3,8 @@ import time
 import csv
 import os
 
-def fetchtwitterfollowers():
+
+def fetch_twitter_followers():
     consumer_key = ''
     consumer_secret = ''
     access_token = ''
@@ -39,7 +40,7 @@ def fetchtwitterfollowers():
                 writer.writerow([val])
 
 
-def sortfollowerscsv():
+def sort_followers_csv():
     os.chdir('..')
 
     directoryPath = os.getcwd() + '\SenatorDataSets'
@@ -55,4 +56,3 @@ def sortfollowerscsv():
             writer.writerows(sortedlist)
         print("Finished sorting " + path)
 
-sortfollowerscsv()
