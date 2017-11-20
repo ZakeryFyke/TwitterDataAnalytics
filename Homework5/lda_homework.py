@@ -24,7 +24,7 @@ class HWLDA(object):
         return dataset[self.data_columns]
 
 
-    def compare_number_of_topics(self, dataset):
+    def compare_number_of_topics(self, dataset, max):
         topic_likelihood_dict = {}
 
         tf = CountVectorizer(stop_words='english')
@@ -41,7 +41,7 @@ class HWLDA(object):
         # Get vocab of DTM
         vocab = tf.get_feature_names()
 
-        for topic_count in range(1, 100):
+        for topic_count in range(1, max):
             model = lda.LDA(n_topics=topic_count, n_iter=2000, random_state=1)
 
             model.fit(tfs)
@@ -93,17 +93,20 @@ if __name__ == '__main__':
     hw_lda = HWLDA()
 
     # TODO: Grab these programmatically
-    csvs = ['marcorubiotweets', 'SenWarrenTweets', 'SenSchumerTweets', 'SenSanderstweets','timkainetweets',
-                'SenJohnMcCaintweets', 'RandPaultweets','KamalaHarristweets','CoryBookerTweets']
+    # csvs = ['marcorubiotweets', 'SenWarrenTweets', 'SenSchumerTweets', 'SenSanderstweets','timkainetweets',
+    #             'SenJohnMcCaintweets', 'RandPaultweets','KamalaHarristweets','CoryBookerTweets', 'SenTedCruztweets']
 
-    #hw_lda.run_lda(10, csvs)
+    hw_lda.run_lda(13, ['CoryBookerTweets'])
 
-    topic_dict = hw_lda.compare_number_of_topics('SenWarrenTweets')
-    topics = topic_dict.keys()
-    likelihoods = topic_dict.values()
-
-    plt.plot(topics, likelihoods)
-    plt.title('SenWarrenTweets')
-    plt.ylabel('Log Likelihood')
-    plt.xlabel('Number of topics')
-    plt.show()
+    # for dataset in csvs:
+    #     topic_dict = hw_lda.compare_number_of_topics(dataset, 100)
+    #     topics = topic_dict.keys()
+    #     likelihoods = topic_dict.values()
+    #
+    #     print("Max likelihood for " + dataset + " was " + str(max(topic_dict, key=topic_dict.get)))
+    #
+    #     plt.plot(topics, likelihoods)
+    #     plt.title(dataset)
+    #     plt.ylabel('Log Likelihood')
+    #     plt.xlabel('Number of topics')
+    #     plt.show()
