@@ -11,40 +11,40 @@
 
 
 \begin{document}
-
-
-\title{I Think What I Hear, The Influence of Social Media on Political Ideologies}
-
-
-\author{
-	\IEEEauthorblockN{
-		\textbf{Richard Matovu and Zakery Fyke \\ 
-			Texas Tech University, Lubbock, TX, US}
+	
+	
+	\title{I Think What I Hear, The Influence of Social Media on Political Ideologies}
+	
+	
+	\author{
+		\IEEEauthorblockN{
+			\textbf{Richard Matovu and Zakery Fyke \\ 
+				Texas Tech University, Lubbock, TX, US}
+		}
 	}
-}
-
-% The paper headers
-\markboth{CS 5331 - Data Analytics Project by Dr. Fang Jin}%
-{Shell \MakeLowercase{\textit{et al.}}: Bare Demo of IEEEtran.cls for IEEE Journals}
-
-
-% make the title area
-\maketitle
-
-
-
-% For peer review papers, you can put extra information on the cover
-% page as needed:
-% \ifCLASSOPTIONpeerreview
-% \begin{center} \bfseries EDICS Category: 3-BBND \end{center}
-% \fi
-%
-% For peerreview papers, this IEEEtran command inserts a page break and
-% creates the second title. It will be ignored for other modes.
-\IEEEpeerreviewmaketitle
-
-
-
+	
+	% The paper headers
+	\markboth{CS 5331 - Data Analytics Project by Dr. Fang Jin}%
+	{Shell \MakeLowercase{\textit{et al.}}: Bare Demo of IEEEtran.cls for IEEE Journals}
+	
+	
+	% make the title area
+	\maketitle
+	
+	
+	
+	% For peer review papers, you can put extra information on the cover
+	% page as needed:
+	% \ifCLASSOPTIONpeerreview
+	% \begin{center} \bfseries EDICS Category: 3-BBND \end{center}
+	% \fi
+	%
+	% For peerreview papers, this IEEEtran command inserts a page break and
+	% creates the second title. It will be ignored for other modes.
+	\IEEEpeerreviewmaketitle
+	
+	
+	
 	\section{Introduction}
 	
 	Echo Chambers are the metaphorical description given to the situation in which beliefs, information, and ideas are reinforced or cemented inside a defined system. A common example is an individual exclusively associating themselves with those who agree with or share their ideals and their point of view. The Echo Chamber reinforces one’s own present world view because of the lack of exchange of dialogue with those who hold a different point of view. The advent of Social Media has allowed Echo Chambers to be formed more easily than ever, and with over 60\% of Americans getting their news from Social Media according to a study by Pew Research Center, this problem could be getting worse. Analysis of the data found on Twitter may allow us to locate these Echo Chambers present based on the political party divide.
@@ -76,7 +76,7 @@
 	\section{Methodology}
 	
 	To complete this task, we have collected data from Twitter through web crawling techniques including, but not limited to, the Twitter API for R and Python. This data has been gathered from the top ten United States Senators which have the largest following on Twitter, measured by number of followers according to \cite{senatorFollowers}, as their political affiliation is already established, as are their Twitter handles. From these accounts, we collected data regarding their tweets and their Twitter followers. We then analyzed this data we collected by comparing the collections of each politician's followers to see if those who follow a particular influential member of Congress from one party are less likely to follow members of the other party. 
-	
+
 	
 	%Idk what we wanna do with this paragraph since we aren't doing this at all. 
 	%Expanding upon this, we will then attempt to visualize who the followers of these politicians are following, so that we can get a total view of any sort of Echo Chamber that may have been formed between these groups. For example, might we find that those Twitter users who follow a particular party are very unlikely to follow particular celebrities or corporate leaders? With this, we can classify the followers of these politicians into different Echo Chambers. 
@@ -86,24 +86,24 @@
 	\subsection{Dataset}
 	
 	For our dataset, we have collected a subset of 500,000 followers from each of our ten US Senators twitter accounts, for a total of 3,338,398 unique users shared across all accounts, with Republican Senators having 1,678,040 unique followers, and Democrat Senators having 2,167,455 unique followers. 
-	
-	For each of the ten senators, we also harvested up to 3,200 tweets via the Twitter API, starting with their most recent tweets. This came up to 12,663 tweets from Republican Senators, and 18,622 tweets for Democrat Senators, for a total of 31,255 tweets overall.
-	
-	\begin{table}[]
-		\centering
-		\caption{My caption}
-		\label{my-label}
-		\begin{tabular}{ll|lll}
-			\hline
-			Republicans & Followers & Democrats        & Followers &  \\ \hline
-			Marco Rubio & 3,123,752 & Bernie Sanders   & 6,398,668 &  \\
-			John McCain & 2,626,424 & Elizabeth Warren & 3,203,264 &  \\
-			Rand Paul   & 1,503,933 & Cory Booker      & 3,442,808 &  \\
-			Ted Cruz    & 1,022,515 & Chuck Schumer    & 937,391   &  \\
-			&           & Kamala Harris    & 836,202   &  \\
-			&           & Tim Kaine        & 693,484   &  \\ \cline{1-4}
-		\end{tabular}
-	\end{table}
+
+For each of the ten senators, we also harvested up to 3,200 tweets via the Twitter API, starting with their most recent tweets. This came up to 12,663 tweets from Republican Senators, and 18,622 tweets for Democrat Senators, for a total of 31,255 tweets overall.
+
+\begin{table}[]
+\centering
+\caption{My caption}
+\label{my-label}
+\begin{tabular}{ll|lll}
+\hline
+Republicans & Followers & Democrats        & Followers &  \\ \hline
+Marco Rubio & 3,123,752 & Bernie Sanders   & 6,398,668 &  \\
+John McCain & 2,626,424 & Elizabeth Warren & 3,203,264 &  \\
+Rand Paul   & 1,503,933 & Cory Booker      & 3,442,808 &  \\
+Ted Cruz    & 1,022,515 & Chuck Schumer    & 937,391   &  \\
+            &           & Kamala Harris    & 836,202   &  \\
+            &           & Tim Kaine        & 693,484   &  \\ \cline{1-4}
+\end{tabular}
+\end{table}
 	
 	\subsection{Implementation}
 	
@@ -117,9 +117,9 @@
 	\section{Conclusion}
 	
 	It seems that with each passing year, American Politics is becoming more and more divided along party lines, and each year it is becoming harder for the two sides to find compromises between them that will make both parties happy. The formation of Echo Chambers, which reinforce one’s own worldview and make it more difficult to consider the validity of another person’s view, have largely contributed to this. By utilizing the data collected from Twitter, we can identify what causes these Echo Chambers to form, and may be able to find what can break them.
+	
+	\bibliographystyle{IEEEtran}
+	\bibliography{IEEEabrv,references}
 
-
-\bibliographystyle{IEEEtran}
-\bibliography{IEEEabrv,references}
-
+	
 \end{document}
