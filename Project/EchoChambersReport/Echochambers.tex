@@ -8,6 +8,8 @@
 \usepackage{subcaption}
 \usepackage{amsmath}
 \usepackage{multirow}
+\usepackage[normalem]{ulem}
+\useunder{\uline}{\ul}{}
 
 
 \begin{document}
@@ -71,20 +73,39 @@
 	
 	Williams et al utilized a similar form of Network Analysis, collecting nearly 600,000 distinct tweets from nearly 180,000 distinct users regarding Climate Change by utilizing hashtags such as \textit{\#globalwarming, \#climatechange,} and \textit{\#climaterealists} to name a few in order to perform an analysis of social media debates regarding Climate Change. They created three separate social networks: "Follower" networks, "Retweet" networks, and "Mention" networks, where each was created from users following one another, retweeting each other's tweets, or mentioning one another in a tweet respectively. The most active users analyzed were classified by researchers as either activists, skeptics, neutral, or unknown. If researchers could not reach a unanimous decision, the user was marked as ambiguous. They found in their study that there was a high degree of polarization in attitudes regarding climate change discussion on Twitter; users who were active in online discussions tended to have strong attitudes and users on Twitter were likely to self-segregate into like minded communities regarding the issue. This self segregation may be indicative of divides along overall political ideologies, instead of just the topic of Climate Change, but this study did not expand beyond just the single topic. 
 	
-	Colleoni et al utilized data collected by Kwak et al in 2009 which consists of all nodes and ties on Twitter in 2009, where nodes are individual users and ties represent the relationships between them. This dataset consists of over 40 million nodes and 1.47 billion ties, though because it is almost a decade out of date, this number has certainly grown considerably since then. They also utilized a collection of 467 million tweets from a 7 month period from June 1st to December 31st, 2009 collected by Yang and Leskovec, utilizing training data containing 60,000 political and 170,000 nonpolitical titles from news blogs. They also utilized a training set containing 1,683 Democrat users and 8,868 Republican users, assuming that users who are following exclusively Republicans or Democrats are themselves Republicans or Democrats. They utilized this collection of data in order to predict the political orientation of users from the content they shared, with an accuracy of roughly 0.96 for Republicans and .79 for Democrats, identifying 72,302 Republicans, and 782,371 Democrats. Using this, they measured the political homophily by defining it as the number of outbound ties (that is, directed to users with similar political orientation plus directed to users with different political orientation). While they concluded that Democrats in general had higher levels of homophily than Republicans, except when considering Republicans which follow official Republican sources, they also had a heavily unbalanced dataset overall, with far more Democrats than Republicans identified, despite having far more Republicans than Democrats in their training data. 
+	Colleoni et al utilized data collected by Kwak et al in 2009 which consists of all nodes and ties on Twitter in 2009, where nodes are individual users and ties represent the relationships between them. This dataset consists of over 40 million nodes and 1.47 billion ties, though because it is almost a decade out of date, this number has certainly grown considerably since then. They also utilized a collection of 467 million tweets from a 7 month period from June 1st to December 31st, 2009 collected by Yang and Leskovec, utilizing training data containing 60,000 political and 170,000 nonpolitical titles from news blogs. They also utilized a training set containing 1,683 Democrat users and 8,868 Republican users, assuming that users who are following exclusively Republicans or Democrats are themselves Republicans or Democrats. They utilized this collection of data in order to predict the political orientation of users from the content they shared, with an accuracy of roughly 0.96 for Republicans and 0.79 for Democrats, identifying 72,302 Republicans, and 782,371 Democrats. Using this, they measured the political homophily by defining it as the number of outbound ties (that is, directed to users with similar political orientation plus directed to users with different political orientation). While they concluded that Democrats in general had higher levels of homophily than Republicans, except when considering Republicans which follow official Republican sources, they also had a heavily unbalanced dataset overall, with far more Democrats than Republicans identified, despite having far more Republicans than Democrats in their training data. 
 	
 	\section{Methodology}
 	
-	To complete this task, we have collected data from Twitter through web crawling techniques including, but not limited to, the Twitter API for R and Python. This data has been gathered from the top ten United States Senators which have the largest following on Twitter, as their political affiliation is already established, as are their Twitter handles. From these accounts, we collected data regarding their tweets and their Twitter followers. We then analyzed this data we collected by comparing the collections of each politician's followers to see if those who follow a particular influential member of Congress from one party are less likely to follow members of the other party. 
+	To complete this task, we have collected data from Twitter through web crawling techniques including, but not limited to, the Twitter API for R and Python. This data has been gathered from the top ten United States Senators which have the largest following on Twitter, measured by number of followers according to \cite{senatorFollowers}, as their political affiliation is already established, as are their Twitter handles. From these accounts, we collected data regarding their tweets and their Twitter followers. We then analyzed this data we collected by comparing the collections of each politician's followers to see if those who follow a particular influential member of Congress from one party are less likely to follow members of the other party. 
+
 	
 	%Idk what we wanna do with this paragraph since we aren't doing this at all. 
-	Expanding upon this, we will then attempt to visualize who the followers of these politicians are following, so that we can get a total view of any sort of Echo Chamber that may have been formed between these groups. For example, might we find that those Twitter users who follow a particular party are very unlikely to follow particular celebrities or corporate leaders? With this, we can classify the followers of these politicians into different Echo Chambers. 
+	%Expanding upon this, we will then attempt to visualize who the followers of these politicians are following, so that we can get a total view of any sort of Echo Chamber that may have been formed between these groups. For example, might we find that those Twitter users who follow a particular party are very unlikely to follow particular celebrities or corporate leaders? With this, we can classify the followers of these politicians into different Echo Chambers. 
 	
-	Once this visualization has been done, we will then attempt to identify which topics are important to each of our groups and the sentiment which they have towards this topic. For example, both sides may frequently discuss issues like Gun Control, but one group may have a negative outlook on it, while the other may have a positive outlook on it. We will then use this analysis to attempt to predict which of our Echo Chambers a person falls into based on their tweets contained in our dataset from the Presidential Campaign.
+	%Once this visualization has been done, we will then attempt to identify which topics are important to each of our groups and the sentiment which they have towards this topic. For example, both sides may frequently discuss issues like Gun Control, but one group may have a negative outlook on it, while the other may have a positive outlook on it. We will then use this analysis to attempt to predict which of our Echo Chambers a person falls into based on their tweets contained in our dataset from the Presidential Campaign.
 	
 	\subsection{Dataset}
 	
-	For our dataset, we have collected a subset of 500,000 followers from each of our ten US Senators twitter accounts and a subset of 3,200 tweets.The collection of followers were then compared with one another to find the shared followers between each of the senators in question. The set of tweets were analyzed using Latent Dirichlet Allocation as a topic modeling method in order to find which topics each senator has been discussing to their followers. 
+	For our dataset, we have collected a subset of 500,000 followers from each of our ten US Senators twitter accounts, for a total of 3,338,398 unique users shared across all accounts, with Republican Senators having 1,678,040 unique followers, and Democrat Senators having 2,167,455 unique followers. 
+
+For each of the ten senators, we also harvested up to 3,200 tweets via the Twitter API, starting with their most recent tweets. This came up to 12,663 tweets from Republican Senators, and 18,622 tweets for Democrat Senators, for a total of 31,255 tweets overall.
+
+\begin{table}[]
+\centering
+\caption{My caption}
+\label{my-label}
+\begin{tabular}{ll|lll}
+\hline
+Republicans & Followers & Democrats        & Followers &  \\ \hline
+Marco Rubio & 3,123,752 & Bernie Sanders   & 6,398,668 &  \\
+John McCain & 2,626,424 & Elizabeth Warren & 3,203,264 &  \\
+Rand Paul   & 1,503,933 & Cory Booker      & 3,442,808 &  \\
+Ted Cruz    & 1,022,515 & Chuck Schumer    & 937,391   &  \\
+            &           & Kamala Harris    & 836,202   &  \\
+            &           & Tim Kaine        & 693,484   &  \\ \cline{1-4}
+\end{tabular}
+\end{table}
 	
 	\subsection{Implementation}
 	
@@ -99,7 +120,8 @@
 	
 	It seems that with each passing year, American Politics is becoming more and more divided along party lines, and each year it is becoming harder for the two sides to find compromises between them that will make both parties happy. The formation of Echo Chambers, which reinforce one’s own worldview and make it more difficult to consider the validity of another person’s view, have largely contributed to this. By utilizing the data collected from Twitter, we can identify what causes these Echo Chambers to form, and may be able to find what can break them.
 	
-	% \bibliographystyle{IEEEtran}
-	% \bibliography{IEEEabrv,references}
+	\bibliographystyle{IEEEtran}
+	\bibliography{IEEEabrv,references}
+
 	
 \end{document}
