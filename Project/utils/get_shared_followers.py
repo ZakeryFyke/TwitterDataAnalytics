@@ -33,3 +33,28 @@ def get_shared_followers():
 
             print 'Finished writing shared followers for ' + os.path.basename(csvPaths[i]) + ' and ' + os.path.basename(csvPaths[j])
 
+def get_shared_followers(folderPath):
+
+    csvPaths = [folderPath + '/' + p for p in os.listdir(folderPath)]
+    L = [['Senators', 'Percent Shared Followers']]
+
+    for data in csvPaths:
+        fileObject = file(data)
+        row_count = sum(1 for row in fileObject)
+
+        basename = (os.path.basename(data)).split('_')
+
+        item = ['@' + basename[0] + ' and ' + '@' + basename[1] + ' Shared Followers', row_count/float(500000)]
+
+
+        L.append(item)
+
+    print(L)
+
+    with open(folderPath + '/' + 'SharedFollowerRatios.csv', "wb") as f:
+        writer = csv.writer(f)
+        writer.writerows(L)
+
+sharedDirectory = directoryPath + '/SharedFollowers'
+get_shared_followers(sharedDirectory + '/DtoR')
+get_shared_followers(sharedDirectory + '/RtoR')
