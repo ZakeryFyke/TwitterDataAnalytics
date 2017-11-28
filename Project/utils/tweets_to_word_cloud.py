@@ -26,10 +26,13 @@ def create_word_cloud(party, filename, title):
     stopwords = set(STOPWORDS)
     stopwords = stopwords.union(extrastops)
 
+    print(len(list))
+
     # Generate a word cloud image
     wordcloud = WordCloud(stopwords=stopwords,
                           mask=twitter_mask,
-                          background_color='white').generate(list)
+                          background_color='white',
+                          max_words=1000).generate(list)
     plt.imshow(wordcloud)
     plt.axis("off")
     plt.title(title)
