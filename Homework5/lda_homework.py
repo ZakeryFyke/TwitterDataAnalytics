@@ -16,20 +16,20 @@ class HWLDA(object):
         self.filenames = ['SenWarrenTweets', 'marcorubiotweets', 'CoryBookertweets', 'RandPaultweets', 'SenJohnMcCaintweets'
                           'SenTedCruztweets', 'KamalaHarristweets', 'timkainetweets', 'SenSanderstweets', 'SenSchumertweets']
 
-    def load_dataset(self, filename):
+    def load_dataset(self, party, filename):
 
-        file = os.path.join( self.data_dir , filename + ".csv" )
+        file = os.path.join( self.data_dir ,party + '/' +  filename + ".csv" )
         dataset = pd.read_csv(file, delimiter='\t', names=['tweet'])
         
         return dataset[self.data_columns]
 
 
-    def compare_number_of_topics(self, dataset, max):
+    def compare_number_of_topics(self, party, dataset, max):
         topic_likelihood_dict = {}
 
         tf = CountVectorizer(stop_words='english')
 
-        tweets = hw_lda.load_dataset(dataset)
+        tweets = hw_lda.load_dataset(party, dataset)
 
         token_dict = {}
         for i in range(len(tweets)):
@@ -53,13 +53,16 @@ class HWLDA(object):
         od = collections.OrderedDict(sorted(topic_likelihood_dict.items()))
         return od
 
-    def run_lda(self, numberoftopics, datasets):
+    def run_lda(self, numberoftopics, party, datasets):
 
-        tf = CountVectorizer(stop_words='english')
+        #tf = CountVectorizer(stop_words='english')
+        words = set(line.strip().lower() for line in open('stopwords.txt'))
+
+        tf = CountVectorizer(stop_words=words)
 
         for dataset in datasets:
             print('###################################')
-            tweets = hw_lda.load_dataset(dataset)
+            tweets = hw_lda.load_dataset(party, dataset)
 
             token_dict = dict()
             for i in range(len(tweets)):
@@ -96,17 +99,29 @@ if __name__ == '__main__':
     # csvs = ['marcorubiotweets', 'SenWarrenTweets', 'SenSchumerTweets', 'SenSanderstweets','timkainetweets',
     #             'SenJohnMcCaintweets', 'RandPaultweets','KamalaHarristweets','CoryBookerTweets', 'SenTedCruztweets']
 
-    hw_lda.run_lda(13, ['CoryBookerTweets'])
+    topic_dict = hw_lda.compare_number_of_topics('Democrats','AllDemocratsTweets', 100)
+    topics = topic_dict.keys()
+    likelihoods = topic_dict.values()
+    print("Max likelihood for " + 'Democrats' + " was " + str(max(topic_dict, key=topic_dict.get)))
 
+    plt.plot(topics, likelihoods)
+    plt.title('Democrats')
+    plt.ylabel('Log Likelihood')
+    plt.xlabel('Number of topics')
+    plt.show()
+
+
+    # hw_lda.run_lda(10,'Democrats', ['AllDemocratsTweets'])
+    # hw_lda.run_lda(10, 'Republicans', ['AllRepublicansTweets'])
     # for dataset in csvs:
     #     topic_dict = hw_lda.compare_number_of_topics(dataset, 100)
     #     topics = topic_dict.keys()
     #     likelihoods = topic_dict.values()
     #
-    #     print("Max likelihood for " + dataset + " was " + str(max(topic_dict, key=topic_dict.get)))
-    #
-    #     plt.plot(topics, likelihoods)
-    #     plt.title(dataset)
-    #     plt.ylabel('Log Likelihood')
-    #     plt.xlabel('Number of topics')
-    #     plt.show()
+        # print("Max likelihood for " + dataset + " was " + str(max(topic_dict, key=topic_dict.get)))
+        #
+        # plt.plot(topics, likelihoods)
+        # plt.title(dataset)
+        # plt.ylabel('Log Likelihood')
+        # plt.xlabel('Number of topics')
+        # plt.show()
