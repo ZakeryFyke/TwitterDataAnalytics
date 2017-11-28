@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd5a7e40-9599-489c-8458-bd25a64807c5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Project/utils/create_results_visualizations.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/TwitterDataAnalytics.iml" afterPath="$PROJECT_DIR$/.idea/TwitterDataAnalytics.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Homework5/lda_homework.py" afterPath="$PROJECT_DIR$/Homework5/lda_homework.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/EchoChambersReport/ICISDM2018.docx" afterPath="$PROJECT_DIR$/Project/EchoChambersReport/ICISDM2018.docx" />
     </list>
     <ignored path="TwitterDataAnalytics.iws" />
     <ignored path=".idea/workspace.xml" />
