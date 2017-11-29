@@ -99,13 +99,13 @@ if __name__ == '__main__':
     # csvs = ['marcorubiotweets', 'SenWarrenTweets', 'SenSchumerTweets', 'SenSanderstweets','timkainetweets',
     #             'SenJohnMcCaintweets', 'RandPaultweets','KamalaHarristweets','CoryBookerTweets', 'SenTedCruztweets']
 
-    topic_dict = hw_lda.compare_number_of_topics('Democrats','AllDemocratsTweets', 100)
+    topic_dict = hw_lda.compare_number_of_topics('Republicans','AllRepublicansTweets', 100)
     topics = topic_dict.keys()
     likelihoods = topic_dict.values()
-    print("Max likelihood for " + 'Democrats' + " was " + str(max(topic_dict, key=topic_dict.get)))
+    print("Max likelihood for " + 'Republicans' + " was " + str(max(topic_dict, key=topic_dict.get)))
 
     plt.plot(topics, likelihoods)
-    plt.title('Democrats')
+    plt.title('Republicans')
     plt.ylabel('Log Likelihood')
     plt.xlabel('Number of topics')
     plt.show()

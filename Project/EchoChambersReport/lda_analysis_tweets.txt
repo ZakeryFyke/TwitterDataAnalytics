@@ -1,5 +1,11 @@
 Democrats: 
 7 topics
-18,622 tweets
+18,623 tweets
 20,512 unique words
 190,746 words
+
+Republicans:
+13 topics
+12,662 tweets
+17,100 unique words
+120,896 words
