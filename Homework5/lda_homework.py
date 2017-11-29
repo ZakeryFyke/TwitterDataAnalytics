@@ -6,6 +6,7 @@ import lda.datasets
 from sklearn.feature_extraction.text import CountVectorizer
 import matplotlib.pyplot as plt
 import collections
+import csv
 
 class HWLDA(object):
     
@@ -24,7 +25,7 @@ class HWLDA(object):
         return dataset[self.data_columns]
 
 
-    def compare_number_of_topics(self, party, dataset, max):
+    def compare_number_of_topics(self, party, dataset, max, iter):
         topic_likelihood_dict = {}
 
         tf = CountVectorizer(stop_words='english')
@@ -42,7 +43,7 @@ class HWLDA(object):
         vocab = tf.get_feature_names()
 
         for topic_count in range(1, max):
-            model = lda.LDA(n_topics=topic_count, n_iter=2000, random_state=1)
+            model = lda.LDA(n_topics=topic_count, n_iter=iter, random_state=1)
 
             model.fit(tfs)
 
@@ -99,16 +100,37 @@ if __name__ == '__main__':
     # csvs = ['marcorubiotweets', 'SenWarrenTweets', 'SenSchumerTweets', 'SenSanderstweets','timkainetweets',
     #             'SenJohnMcCaintweets', 'RandPaultweets','KamalaHarristweets','CoryBookerTweets', 'SenTedCruztweets']
 
-    topic_dict = hw_lda.compare_number_of_topics('Republicans','AllRepublicansTweets', 100)
+    topic_dict = hw_lda.compare_number_of_topics('Republicans', 'AllRepublicansTweets', 100, 2000)
     topics = topic_dict.keys()
     likelihoods = topic_dict.values()
     print("Max likelihood for " + 'Republicans' + " was " + str(max(topic_dict, key=topic_dict.get)))
 
-    plt.plot(topics, likelihoods)
-    plt.title('Republicans')
-    plt.ylabel('Log Likelihood')
-    plt.xlabel('Number of topics')
-    plt.show()
+    L = topic_dict.items()
+    print(L)
+
+    with open('RepublicanLDA.csv', 'wb') as out:
+        csv_out = csv.writer(out)
+        for row in L:
+            csv_out.writerow(row)
+
+    topic_dict = hw_lda.compare_number_of_topics('Democrats', 'AllDemocratsTweets', 100, 2000)
+    topics = topic_dict.keys()
+    likelihoods = topic_dict.values()
+    print("Max likelihood for " + 'Democrats' + " was " + str(max(topic_dict, key=topic_dict.get)))
+
+    L = topic_dict.items()
+    print(L)
+
+    with open('DemocratLDA.csv', 'wb') as out:
+        csv_out = csv.writer(out)
+        for row in L:
+            csv_out.writerow(row)
+
+    # plt.plot(topics, likelihoods)
+    # plt.title('Republicans')
+    # plt.ylabel('Log Likelihood')
+    # plt.xlabel('Number of topics')
+    # plt.show()
 
 
     # hw_lda.run_lda(10,'Democrats', ['AllDemocratsTweets'])

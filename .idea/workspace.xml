@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd5a7e40-9599-489c-8458-bd25a64807c5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/EchoChambersReport/ICISDM2018.docx" afterPath="$PROJECT_DIR$/Project/EchoChambersReport/ICISDM2018.docx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Homework5/lda_homework.py" afterPath="$PROJECT_DIR$/Homework5/lda_homework.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/EchoChambersReport/lda_analysis_tweets.txt" afterPath="$PROJECT_DIR$/Project/EchoChambersReport/lda_analysis_tweets.txt" />
     </list>
     <ignored path="TwitterDataAnalytics.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,6 +31,18 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="lda_homework.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Homework5/lda_homework.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="358">
+              <caret line="112" column="21" lean-forward="true" selection-start-line="112" selection-start-column="21" selection-end-line="112" selection-end-column="21" />
+              <folding>
+                <element signature="e#24#33#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="create_results_visualizations.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Project/utils/create_results_visualizations.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -41,16 +51,6 @@
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lda_homework.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Homework5/lda_homework.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
-              <caret line="112" column="0" lean-forward="true" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -167,7 +167,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1490" />
+    <option name="x" value="-10" />
     <option name="width" value="1522" />
     <option name="height" value="1932" />
   </component>
@@ -887,14 +887,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Project/utils/get_shared_followers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Project/utils/create_results_visualizations.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -915,11 +907,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Project/utils/get_shared_followers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Homework5/lda_homework.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="358">
-          <caret line="112" column="0" lean-forward="true" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
-          <folding />
+          <caret line="112" column="21" lean-forward="true" selection-start-line="112" selection-start-column="21" selection-end-line="112" selection-end-column="21" />
+          <folding>
+            <element signature="e#24#33#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
