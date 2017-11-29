@@ -53,7 +53,7 @@ class TopicAnalysis(object):
         
         cleaned_tweets = [self.clean_tweet(tweet).split() for index, tweet in tweet_dataset.iterrows()]
         
-        # Creating the term dictionary of our courpus, where every unique term is assigned an index. 
+        # Creating the term dictionary of our corpus, where every unique term is assigned an index.
         dictionary = corpora.Dictionary(cleaned_tweets)
         
         # Converting list of documents (corpus) into Document Term Matrix using dictionary prepared above.
@@ -63,7 +63,7 @@ class TopicAnalysis(object):
         Lda = gensim.models.ldamodel.LdaModel
         
         # Running and Training LDA model on the document term matrix.
-        ldamodel = Lda(doc_term_matrix, num_topics=num_topics, id2word = dictionary, passes=50)
+        ldamodel = Lda(doc_term_matrix, num_topics=num_topics, id2word=dictionary, passes=50)
         
         return ldamodel
 

@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd5a7e40-9599-489c-8458-bd25a64807c5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/EchoChambersReport/Echochambers.pdf" afterPath="$PROJECT_DIR$/Project/EchoChambersReport/Echochambers.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/EchoChambersReport/Echochambers.synctex.gz" afterPath="$PROJECT_DIR$/Project/EchoChambersReport/Echochambers.synctex.gz" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/EchoChambersReport/ICISDM2018.docx" afterPath="$PROJECT_DIR$/Project/EchoChambersReport/ICISDM2018.docx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Homework5/lda_homework.py" afterPath="$PROJECT_DIR$/Homework5/lda_homework.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/EchoChambersReport/Echochambers.tex" afterPath="$PROJECT_DIR$/Project/EchoChambersReport/Echochambers.tex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/EchoChambersReport/references.bib" afterPath="$PROJECT_DIR$/Project/EchoChambersReport/references.bib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/SenatorDatasets/SharedFollowers/DtoD/DtoDSharedFollowerRatios.csv" afterPath="$PROJECT_DIR$/Project/SenatorDatasets/SharedFollowers/DtoD/DtoDSharedFollowerRatios.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/SenatorDatasets/SharedFollowers/RtoR/RtoRSharedFollowerRatios.csv" afterPath="$PROJECT_DIR$/Project/SenatorDatasets/SharedFollowers/RtoR/RtoRSharedFollowerRatios.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/utils/topic_analysis.py" afterPath="$PROJECT_DIR$/Project/utils/topic_analysis.py" />
     </list>
     <ignored path="TwitterDataAnalytics.iws" />
@@ -40,8 +38,8 @@
       <file leaf-file-name="lda_homework.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Homework5/lda_homework.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3">
-              <caret line="94" column="0" lean-forward="false" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
+            <state relative-caret-position="308">
+              <caret line="106" column="36" lean-forward="true" selection-start-line="106" selection-start-column="36" selection-end-line="106" selection-end-column="36" />
               <folding>
                 <element signature="e#24#33#0" expanded="true" />
               </folding>
@@ -62,8 +60,8 @@
       <file leaf-file-name="topic_analysis.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Project/utils/topic_analysis.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="35" column="55" lean-forward="true" selection-start-line="35" selection-start-column="55" selection-end-line="35" selection-end-column="55" />
+            <state relative-caret-position="451">
+              <caret line="72" column="38" lean-forward="true" selection-start-line="72" selection-start-column="38" selection-end-line="72" selection-end-column="38" />
               <folding>
                 <element signature="e#110#143#0" expanded="true" />
               </folding>
@@ -187,7 +185,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
+    <option name="x" value="1490" />
     <option name="width" value="1522" />
     <option name="height" value="1932" />
   </component>
@@ -270,7 +268,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.topic_analysis">
+  <component name="RunManager" selected="Python.lda_homework">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -499,8 +497,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.topic_analysis" />
-        <item index="1" class="java.lang.String" itemvalue="Python.lda_homework" />
+        <item index="0" class="java.lang.String" itemvalue="Python.lda_homework" />
+        <item index="1" class="java.lang.String" itemvalue="Python.topic_analysis" />
         <item index="2" class="java.lang.String" itemvalue="Python.create_results_visualizations" />
         <item index="3" class="java.lang.String" itemvalue="Python.get_shared_followers" />
         <item index="4" class="java.lang.String" itemvalue="Python.tweets_to_word_cloud (1)" />
@@ -915,16 +913,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Homework5/lda_homework.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3">
-          <caret line="94" column="0" lean-forward="false" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
-          <folding>
-            <element signature="e#24#33#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Homework5/tweets_to_word_cloud.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -935,10 +923,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Homework5/lda_homework.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="106" column="36" lean-forward="true" selection-start-line="106" selection-start-column="36" selection-end-line="106" selection-end-column="36" />
+          <folding>
+            <element signature="e#24#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Project/utils/topic_analysis.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="35" column="55" lean-forward="true" selection-start-line="35" selection-start-column="55" selection-end-line="35" selection-end-column="55" />
+        <state relative-caret-position="451">
+          <caret line="72" column="38" lean-forward="true" selection-start-line="72" selection-start-column="38" selection-end-line="72" selection-end-column="38" />
           <folding>
             <element signature="e#110#143#0" expanded="true" />
           </folding>

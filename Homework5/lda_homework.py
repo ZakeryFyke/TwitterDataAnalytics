@@ -91,8 +91,26 @@ class HWLDA(object):
             print('###################################')
 
 
-def plot_lda_from_plt(csv):
+    def plot_lda_from_csv(this, path1, path2, name):
+        count, likelihood = np.loadtxt(path1, delimiter=',', unpack=True)
 
+        fig = plt.figure(figsize=(20,10))
+        ax = fig.add_subplot(121)
+        ax.plot(count, likelihood)
+
+        plt.xlabel('Number of topics')
+        plt.ylabel('Log Likelihood')
+
+        ax = fig.add_subplot(122)
+        count, likelihood = np.loadtxt(path2, delimiter=',', unpack=True)
+        ax.plot(count,likelihood)
+        plt.xlabel('Number of topics')
+        plt.ylabel('Log Likelihood')
+
+        plt.show()
+
+        # plt.savefig(name, format='png', dpi=1000)
+        # plt.close()
 
 
 if __name__ == '__main__':
@@ -109,9 +127,10 @@ if __name__ == '__main__':
     # plt.xlabel('Number of topics')
     # plt.show()
 
+    hw_lda.plot_lda_from_csv('RepublicanLDA.csv','DemocratLDA.csv', 'LDAChart.png')
 
-    hw_lda.run_lda(7,'Democrats', ['AllDemocratsTweets'])
-    hw_lda.run_lda(13, 'Republicans', ['AllRepublicansTweets'])
+    # hw_lda.run_lda(7,'Democrats', ['AllDemocratsTweets'])
+    # hw_lda.run_lda(13, 'Republicans', ['AllRepublicansTweets'])
     # for dataset in csvs:
     #     topic_dict = hw_lda.compare_number_of_topics(dataset, 100)
     #     topics = topic_dict.keys()
