@@ -8,16 +8,21 @@ Created on Wed Nov 29 08:13:40 2017
 
 from nltk.corpus import stopwords
 from nltk.stem.wordnet import WordNetLemmatizer
-import string, os
+import string
+import os
 import pandas as pd
 import gensim
 from gensim import corpora
+import sys
+
+reload(sys)
+sys.setdefaultencoding('utf8')
 
 class TopicAnalysis(object):
     
     def __init__(self):
-        
-        self.stop = set(stopwords.words('english'))
+        words = set(line.strip().lower() for line in open('stopwords.txt'))
+        self.stop = set(stopwords.words('english')).union(words)
         self.exclude = set(string.punctuation)
         self.lemma = WordNetLemmatizer()
     
@@ -57,12 +62,12 @@ class TopicAnalysis(object):
         # Creating the object for LDA model using gensim library
         Lda = gensim.models.ldamodel.LdaModel
         
-        # Running and Trainign LDA model on the document term matrix.
+        # Running and Training LDA model on the document term matrix.
         ldamodel = Lda(doc_term_matrix, num_topics=num_topics, id2word = dictionary, passes=50)
         
         return ldamodel
 
 ta = TopicAnalysis()
         
-ec_model = ta.train_model("Democrats", 7)
-print( ec_model.print_topics(7, 30) )
+ec_model = ta.train_model("Republicans", 13)
+print( ec_model.print_topics(13, 30) )

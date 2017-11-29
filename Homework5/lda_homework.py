@@ -91,6 +91,9 @@ class HWLDA(object):
             print('###################################')
 
 
+def plot_lda_from_plt(csv):
+
+
 
 if __name__ == '__main__':
 

@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd5a7e40-9599-489c-8458-bd25a64807c5" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/EchoChambersReport/Echochambers.pdf" afterPath="$PROJECT_DIR$/Project/EchoChambersReport/Echochambers.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/EchoChambersReport/Echochambers.synctex.gz" afterPath="$PROJECT_DIR$/Project/EchoChambersReport/Echochambers.synctex.gz" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/EchoChambersReport/ICISDM2018.docx" afterPath="$PROJECT_DIR$/Project/EchoChambersReport/ICISDM2018.docx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Homework5/lda_homework.py" afterPath="$PROJECT_DIR$/Homework5/lda_homework.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/EchoChambersReport/Echochambers.tex" afterPath="$PROJECT_DIR$/Project/EchoChambersReport/Echochambers.tex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/EchoChambersReport/references.bib" afterPath="$PROJECT_DIR$/Project/EchoChambersReport/references.bib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/utils/topic_analysis.py" afterPath="$PROJECT_DIR$/Project/utils/topic_analysis.py" />
     </list>
     <ignored path="TwitterDataAnalytics.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,13 +37,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lda_homework.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="lda_homework.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Homework5/lda_homework.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+            <state relative-caret-position="3">
+              <caret line="94" column="0" lean-forward="false" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
               <folding>
                 <element signature="e#24#33#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lda_homework.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Homework5/scripts/lda_homework.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="topic_analysis.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Project/utils/topic_analysis.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="35" column="55" lean-forward="true" selection-start-line="35" selection-start-column="55" selection-end-line="35" selection-end-column="55" />
+              <folding>
+                <element signature="e#110#143#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -72,17 +99,7 @@
         <entry file="file://$PROJECT_DIR$/Project/utils/fetch_twitter_followers.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="901">
-              <caret line="56" column="41" lean-forward="true" selection-start-line="56" selection-start-column="41" selection-end-line="56" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="56" column="41" lean-forward="false" selection-start-line="56" selection-start-column="41" selection-end-line="56" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -103,7 +120,7 @@
       <file leaf-file-name="tweets_to_word_cloud.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Homework5/tweets_to_word_cloud.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
+            <state relative-caret-position="221">
               <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
@@ -137,6 +154,7 @@
       <find>log</find>
       <find>topics</find>
       <find>corybooker</find>
+      <find>stopwords</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -164,6 +182,7 @@
         <option value="$PROJECT_DIR$/Project/utils/get_shared_followers.py" />
         <option value="$PROJECT_DIR$/Project/utils/create_results_visualizations.py" />
         <option value="$PROJECT_DIR$/Homework5/lda_homework.py" />
+        <option value="$PROJECT_DIR$/Project/utils/topic_analysis.py" />
       </list>
     </option>
   </component>
@@ -251,7 +270,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.lda_homework">
+  <component name="RunManager" selected="Python.topic_analysis">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -437,6 +456,23 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
+    <configuration name="topic_analysis" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Project/utils" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="TwitterDataAnalytics" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Project/utils/topic_analysis.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
     <configuration name="tweets_to_word_cloud (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -454,37 +490,20 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="tweets_to_word_cloud" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Homework5" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="TwitterDataAnalytics" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Homework5/tweets_to_word_cloud.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.tweets_to_word_cloud" />
-      <item index="1" class="java.lang.String" itemvalue="Python.tweets_to_word_cloud (1)" />
-      <item index="2" class="java.lang.String" itemvalue="Python.get_shared_followers" />
-      <item index="3" class="java.lang.String" itemvalue="Python.create_results_visualizations" />
-      <item index="4" class="java.lang.String" itemvalue="Python.lda_homework" />
+      <item index="0" class="java.lang.String" itemvalue="Python.tweets_to_word_cloud (1)" />
+      <item index="1" class="java.lang.String" itemvalue="Python.get_shared_followers" />
+      <item index="2" class="java.lang.String" itemvalue="Python.create_results_visualizations" />
+      <item index="3" class="java.lang.String" itemvalue="Python.lda_homework" />
+      <item index="4" class="java.lang.String" itemvalue="Python.topic_analysis" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.lda_homework" />
-        <item index="1" class="java.lang.String" itemvalue="Python.create_results_visualizations" />
-        <item index="2" class="java.lang.String" itemvalue="Python.get_shared_followers" />
-        <item index="3" class="java.lang.String" itemvalue="Python.tweets_to_word_cloud (1)" />
-        <item index="4" class="java.lang.String" itemvalue="Python.tweets_to_word_cloud" />
+        <item index="0" class="java.lang.String" itemvalue="Python.topic_analysis" />
+        <item index="1" class="java.lang.String" itemvalue="Python.lda_homework" />
+        <item index="2" class="java.lang.String" itemvalue="Python.create_results_visualizations" />
+        <item index="3" class="java.lang.String" itemvalue="Python.get_shared_followers" />
+        <item index="4" class="java.lang.String" itemvalue="Python.tweets_to_word_cloud (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -505,7 +524,7 @@
     <frame x="-6" y="-6" width="1513" height="973" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20680454" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2341561" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31177828" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -543,24 +562,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Project/utils/fetch_tweets_by_id.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#24#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Homework4/scripts/clustering_homework.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="54" column="39" lean-forward="false" selection-start-line="54" selection-start-column="39" selection-end-line="54" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Homework3/scripts/rescue_classification.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1513">
@@ -859,16 +860,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Homework5/tweets_to_word_cloud.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Project/utils/tweets_to_word_cloud.py" />
     <entry file="file://$PROJECT_DIR$/Project/utils/merge_party_csvs.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -911,17 +902,45 @@
     <entry file="file://$PROJECT_DIR$/Project/utils/fetch_twitter_followers.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="901">
-          <caret line="56" column="41" lean-forward="true" selection-start-line="56" selection-start-column="41" selection-end-line="56" selection-end-column="41" />
+          <caret line="56" column="41" lean-forward="false" selection-start-line="56" selection-start-column="41" selection-end-line="56" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Homework5/scripts/lda_homework.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Homework5/lda_homework.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+        <state relative-caret-position="3">
+          <caret line="94" column="0" lean-forward="false" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
           <folding>
             <element signature="e#24#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Homework5/tweets_to_word_cloud.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Project/utils/topic_analysis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="35" column="55" lean-forward="true" selection-start-line="35" selection-start-column="55" selection-end-line="35" selection-end-column="55" />
+          <folding>
+            <element signature="e#110#143#0" expanded="true" />
           </folding>
         </state>
       </provider>
