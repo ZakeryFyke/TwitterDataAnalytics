@@ -15,8 +15,8 @@ import gensim
 from gensim import corpora
 import sys
 
-reload(sys)
-sys.setdefaultencoding('utf8')
+#reload(sys)
+#sys.setdefaultencoding('utf8')
 
 class TopicAnalysis(object):
     
@@ -42,9 +42,10 @@ class TopicAnalysis(object):
         
         tweet = str( doc['tweet'] )
         
-        stop_free = " ".join([i for i in tweet.lower().split() if i not in self.stop])
-        punc_free = ''.join(ch for ch in stop_free if ch not in self.exclude)
-        normalized = " ".join(self.lemma.lemmatize(word) for word in punc_free.split())
+        punc_free = ''.join(ch for ch in tweet if ch not in self.exclude)
+        stop_free = " ".join( [i for i in punc_free.lower().split() if i not in self.stop] )
+        normalized = " ".join(self.lemma.lemmatize(word) for word in stop_free.split())
+        
         return normalized
     
     def train_model(self, party, num_topics=7):
@@ -66,7 +67,7 @@ class TopicAnalysis(object):
         ldamodel = Lda(doc_term_matrix, num_topics=num_topics, id2word = dictionary, passes=50)
         
         return ldamodel
-
+    
 ta = TopicAnalysis()
         
 ec_model = ta.train_model("Republicans", 13)
