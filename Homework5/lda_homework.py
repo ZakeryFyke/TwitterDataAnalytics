@@ -18,7 +18,7 @@ class HWLDA(object):
 
     def load_dataset(self, party, filename):
 
-        file = os.path.join( self.data_dir ,party + '/' +  filename + ".csv" )
+        file = os.path.join( self.data_dir, party + '/' + filename + ".csv" )
         dataset = pd.read_csv(file, delimiter='\t', names=['tweet'])
         
         return dataset[self.data_columns]

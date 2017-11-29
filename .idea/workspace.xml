@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="fd5a7e40-9599-489c-8458-bd25a64807c5" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/EchoChambersReport/ICISDM2018.docx" afterPath="$PROJECT_DIR$/Project/EchoChambersReport/ICISDM2018.docx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/EchoChambersReport/shared_ratios_boxplot.png" afterPath="$PROJECT_DIR$/Project/EchoChambersReport/shared_ratios_boxplot.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Homework5/lda_homework.py" afterPath="$PROJECT_DIR$/Homework5/lda_homework.py" />
     </list>
     <ignored path="TwitterDataAnalytics.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,11 +33,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="create_results_visualizations.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="create_results_visualizations.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Project/utils/create_results_visualizations.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state relative-caret-position="153">
+              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -43,11 +45,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lda_homework.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="lda_homework.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Homework5/lda_homework.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="884">
-              <caret line="58" column="48" lean-forward="true" selection-start-line="58" selection-start-column="48" selection-end-line="58" selection-end-column="48" />
+            <state relative-caret-position="238">
+              <caret line="20" column="44" lean-forward="false" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -88,7 +90,7 @@
       <file leaf-file-name="fetch_tweets_by_id.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Project/utils/fetch_tweets_by_id.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1224">
+            <state relative-caret-position="511">
               <caret line="75" column="17" lean-forward="false" selection-start-line="75" selection-start-column="17" selection-end-line="75" selection-end-column="61" />
               <folding>
                 <element signature="e#24#37#0" expanded="true" />
@@ -159,8 +161,8 @@
         <option value="$PROJECT_DIR$/Project/utils/merge_party_csvs.py" />
         <option value="$PROJECT_DIR$/Project/utils/tweets_to_word_cloud.py" />
         <option value="$PROJECT_DIR$/Project/utils/get_shared_followers.py" />
-        <option value="$PROJECT_DIR$/Homework5/lda_homework.py" />
         <option value="$PROJECT_DIR$/Project/utils/create_results_visualizations.py" />
+        <option value="$PROJECT_DIR$/Homework5/lda_homework.py" />
       </list>
     </option>
   </component>
@@ -838,16 +840,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Project/utils/fetch_tweets_by_id.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1224">
-          <caret line="75" column="17" lean-forward="false" selection-start-line="75" selection-start-column="17" selection-end-line="75" selection-end-column="61" />
-          <folding>
-            <element signature="e#24#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Project/utils/fetch_twitter_followers.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="935">
@@ -903,21 +895,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Homework5/lda_homework.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="58" column="48" lean-forward="true" selection-start-line="58" selection-start-column="48" selection-end-line="58" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Project/utils/create_results_visualizations.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state relative-caret-position="153">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Project/utils/fetch_tweets_by_id.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="511">
+          <caret line="75" column="17" lean-forward="false" selection-start-line="75" selection-start-column="17" selection-end-line="75" selection-end-column="61" />
+          <folding>
+            <element signature="e#24#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Homework5/lda_homework.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="20" column="44" lean-forward="false" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
+          <folding />
         </state>
       </provider>
     </entry>

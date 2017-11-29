@@ -1,0 +1,5 @@
+Democrats: 
+7 topics
+18,622 tweets
+20,512 unique words
+190,746 words
