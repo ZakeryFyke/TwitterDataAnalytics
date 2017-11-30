@@ -1,6 +1,6 @@
 from wordcloud import (WordCloud, get_single_color_func)
 import matplotlib.pyplot as plt
-
+import os
 
 class SimpleGroupedColorFunc(object):
     """Create a color function object which assigns EXACT colors
@@ -119,7 +119,23 @@ class GroupedColorFunc(object):
 # plt.axis("off")
 # plt.show()
 
-with open("C:\Users\zak70\Documents\GitHub\TwitterDataAnalytics\Project\EchoChambersReport\Republicans_Topic_Probability.txt") as myfile:
+def normalize_dict(D):
+    maximum = max(D.values())
+
+    factor = 1.0/sum(D.itervalues())
+    #
+    for k in D:
+         D[k] = D[k]*factor
+
+    return D
+
+    # new_list = [float(i) / max(L) for i in L]
+    # return new_list
+
+os.chdir('..')
+directoryPath = os.getcwd() + '\EchoChambersReport'
+
+with open(directoryPath + "\Republicans_Topic_Probability.txt") as myfile:
     data = myfile.read().replace('\n', '')
 
 sublists = data.split(',')
@@ -139,14 +155,16 @@ for i in range(1, len(sublists), 2):
 
         #L.append(partial)
 
-        prob = int(float(partial[0].strip()) * 1000)
+        prob = float(partial[0].strip())
         term = partial[1].strip().replace('"', '')
 
         if ')' not in term and '\\' not in term:
             L[term] = prob
             littleD[term] = prob
+    print(L)
+    bigD[count] = normalize_dict(L)
 
-    bigD[count] = L
+    #bigD[count] = L
     L = {}
     count += 1
 
