@@ -15,8 +15,8 @@ import gensim
 from gensim import corpora
 import sys
 
-#reload(sys)
-#sys.setdefaultencoding('utf8')
+reload(sys)
+sys.setdefaultencoding('utf8')
 
 class TopicAnalysis(object):
     
@@ -70,5 +70,5 @@ class TopicAnalysis(object):
     
 ta = TopicAnalysis()
         
-ec_model = ta.train_model("Republicans", 13)
-print( ec_model.print_topics(13, 30) )
+ec_model = ta.train_model("Democrats", 7)
+print( ec_model.print_topics(7, 30) )

@@ -39,5 +39,5 @@ def create_word_cloud(party, filename, title):
 
     plt.show()
 
-create_word_cloud('Republicans', 'AllRepublicansTweets', 'Republican Tweet Word Cloud')
-create_word_cloud('Democrats', 'AllDemocratsTweets', 'Democrat Tweet Word Cloud')
+# create_word_cloud('Republicans', 'AllRepublicansTweets', 'Republican Tweet Word Cloud')
+# create_word_cloud('Democrats', 'AllDemocratsTweets', 'Democrat Tweet Word Cloud')
