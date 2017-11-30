@@ -127,10 +127,10 @@ if __name__ == '__main__':
     # plt.xlabel('Number of topics')
     # plt.show()
 
-    hw_lda.plot_lda_from_csv('RepublicanLDA.csv','DemocratLDA.csv', 'LDAChart.png')
+    #hw_lda.plot_lda_from_csv('RepublicanLDA.csv','DemocratLDA.csv', 'LDAChart.png')
 
     # hw_lda.run_lda(7,'Democrats', ['AllDemocratsTweets'])
-    # hw_lda.run_lda(13, 'Republicans', ['AllRepublicansTweets'])
+    hw_lda.run_lda(13, 'Republicans', ['AllRepublicansTweets'])
     # for dataset in csvs:
     #     topic_dict = hw_lda.compare_number_of_topics(dataset, 100)
     #     topics = topic_dict.keys()
