@@ -12,7 +12,7 @@ import string
 import os
 import pandas as pd
 import gensim
-from gensim import corpora
+from gensim import corpora, models
 import sys
 
 reload(sys)
@@ -54,17 +54,23 @@ class TopicAnalysis(object):
         
         cleaned_tweets = [self.clean_tweet(tweet).split() for index, tweet in tweet_dataset.iterrows()]
         
-        # Creating the term dictionary of our corpus, where every unique term is assigned an index.
+        # Creating the term dictionary of our courpus, where every unique term is assigned an index. 
         dictionary = corpora.Dictionary(cleaned_tweets)
+        
+        # TF for the documents
+        tfidf = models.TfidfModel(dictionary=dictionary)
         
         # Converting list of documents (corpus) into Document Term Matrix using dictionary prepared above.
         doc_term_matrix = [dictionary.doc2bow(doc) for doc in cleaned_tweets]
+        
+        #print( doc_term_matrix[2] )
+        corpus_tfidf = tfidf[doc_term_matrix]
         
         # Creating the object for LDA model using gensim library
         Lda = gensim.models.ldamodel.LdaModel
         
         # Running and Training LDA model on the document term matrix.
-        ldamodel = Lda(doc_term_matrix, num_topics=num_topics, id2word=dictionary, passes=50)
+        ldamodel = Lda(corpus_tfidf, num_topics=num_topics, id2word = dictionary, passes=50)
         
         return ldamodel
     
