@@ -80,7 +80,7 @@ class TopicAnalysis(object):
         
         cleaned_tweets = [self.clean_tweet(tweet).split() for index, tweet in tweet_dataset.iterrows()]
         
-        model = models.Word2Vec(cleaned_tweets, min_count=1)
+        model = models.Word2Vec(cleaned_tweets, size=200, min_count=1, window=45)
         
         model.save( party + "_word_meanings_model" )
         
@@ -105,4 +105,4 @@ if __name__ == '__main__':
     
     #ta.train_word_meanings( "Republicans" )
     
-    ta.party_word_usage("gun")
+    ta.party_word_usage("obamacare")
