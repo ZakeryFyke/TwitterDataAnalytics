@@ -12,11 +12,11 @@ import string
 import os
 import pandas as pd
 import gensim
-from gensim import corpora
+from gensim import corpora, models
 import sys
 
-reload(sys)
-sys.setdefaultencoding('utf8')
+#reload(sys)
+#sys.setdefaultencoding('utf8')
 
 class TopicAnalysis(object):
     
@@ -48,27 +48,61 @@ class TopicAnalysis(object):
         
         return normalized
     
-    def train_model(self, party, num_topics=7):
+    def train_lda_model(self, party, num_topics=7):
         
         tweet_dataset = self.load_dataset(party)
         
         cleaned_tweets = [self.clean_tweet(tweet).split() for index, tweet in tweet_dataset.iterrows()]
         
-        # Creating the term dictionary of our corpus, where every unique term is assigned an index.
+        # Creating the term dictionary of our courpus, where every unique term is assigned an index. 
         dictionary = corpora.Dictionary(cleaned_tweets)
+        
+        # TF for the documents
+        tfidf = models.TfidfModel(dictionary=dictionary)
         
         # Converting list of documents (corpus) into Document Term Matrix using dictionary prepared above.
         doc_term_matrix = [dictionary.doc2bow(doc) for doc in cleaned_tweets]
         
+        #print( doc_term_matrix[2] )
+        corpus_tfidf = tfidf[doc_term_matrix]
+        
         # Creating the object for LDA model using gensim library
-        Lda = gensim.models.ldamodel.LdaModel
+        Lda = models.ldamodel.LdaModel
         
         # Running and Training LDA model on the document term matrix.
-        ldamodel = Lda(doc_term_matrix, num_topics=num_topics, id2word=dictionary, passes=50)
+        ldamodel = Lda(corpus_tfidf, num_topics=num_topics, id2word = dictionary, passes=50)
         
         return ldamodel
     
-ta = TopicAnalysis()
+    def train_word_meanings(self, party):
         
-ec_model = ta.train_model("Democrats", 7)
-print( ec_model.print_topics(7, 30) )
+        tweet_dataset = self.load_dataset(party)
+        
+        cleaned_tweets = [self.clean_tweet(tweet).split() for index, tweet in tweet_dataset.iterrows()]
+        
+        model = models.Word2Vec(cleaned_tweets, size=200, min_count=1, window=45)
+        
+        model.save( party + "_word_meanings_model" )
+        
+    def party_word_usage(self, word):
+        
+        for party in ['Democrats', 'Republicans']:
+        
+            model = models.Word2Vec.load( party + "_word_meanings_model" )
+        
+            print(party, "Party")
+            print( model.most_similar(word) )
+            print()
+        
+
+if __name__ == '__main__':
+    
+    ta = TopicAnalysis()
+            
+    #ec_model = ta.train_lda_model("Democrats", 7)
+    #print( ec_model.print_topics(7, 30) )
+    
+    
+    #ta.train_word_meanings( "Republicans" )
+    
+    ta.party_word_usage("obamacare")
