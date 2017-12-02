@@ -1,0 +1,240 @@
+label,id
+marcorubio, 1
+candidate, 2
+marco, 3
+leadership, 4
+teammarco, 5
+don't wait, 6
+night, 7
+nhpolitic, 8
+tonight, 9
+father, 10
+don't miss, 11
+rally, 12
+god, 13
+american dream, 14
+reminder, 15
+rsvp, 16
+voted, 17
+scformarco, 18
+headed, 19
+terrorist, 20
+patriciamazzei, 21
+tampabay, 22
+hurricane, 23
+awesome, 24
+caucus, 25
+conservative, 26
+south carolina, 27
+florida, 28
+gopdebate, 29
+secretarysonny, 30
+amp, 31
+realdonaldtrump, 32
+war, 33
+iowa, 34
+congrat, 35
+voting, 36
+fitn, 37
+obama, 38
+cruz, 39
+miami, 40
+rep, 41
+looking forward, 42
+voter, 43
+pro, 44
+htt, 45
+jeremysheftel, 46
+dictator, 47
+nevertrump, 48
+earnit, 49
+rubio, 50
+trump, 51
+deptofdefense, 52
+emergency, 53
+nicolasmaduro, 54
+foxnew, 55
+cuba, 56
+marcomentum, 57
+voteearlyday, 58
+tomorrow, 59
+secprimary, 60
+water, 61
+read, 62
+miamiherald, 63
+look forward, 64
+senrubiopress, 65
+morning, 66
+cuban, 67
+sen, 68
+poll, 69
+flprimary, 70
+hear, 71
+gop, 72
+house, 73
+mayor, 74
+cnn, 75
+teamrubio, 76
+castro, 77
+edwgillespie, 78
+volunteer, 79
+hard, 80
+irma, 81
+senate, 82
+tax reform, 83
+football, 84
+hillary clinton, 85
+olivia, 86
+scprimary, 87
+isis, 88
+cnnpolitic, 89
+venezuela, 90
+fema, 91
+business, 92
+betterdealforcuba, 93
+statedept, 94
+humanright, 95
+liliantintori, 96
+joining, 97
+jacksonville, 98
+info, 99
+congress, 100
+nikkihaley, 101
+govt, 102
+love, 103
+maduro, 104
+poor, 105
+friend, 106
+sayfie, 107
+flsen, 108
+supporter, 109
+heading, 110
+puertorico, 111
+ricardorossello, 112
+thisweekabc, 113
+polls are open, 114
+phone, 115
+orlando, 116
+supertuesday, 117
+sticker, 118
+honored, 119
+vote early, 120
+iacaucus, 121
+campaign trail, 122
+here's why, 123
+twitter, 124
+senatortimscott, 125
+speak, 126
+thanks for coming, 127
+answer, 128
+nfl, 129
+burgosgop, 130
+patrick murphy, 131
+lord, 132
+miamidolphin, 133
+city, 134
+demdebate, 135
+seanhannity, 136
+presidential, 137
+greet, 138
+myer, 139
+ivankatrump, 140
+american century, 141
+marcorubio tonight, 142
+sundayfuture, 143
+icymi, 144
+town hall, 145
+putin, 146
+hurricaneirma, 147
+taxreform, 148
+that's why, 149
+kid, 150
+hampshire, 151
+jeanette, 152
+tweet, 153
+senator, 154
+donald trump, 155
+brookesammon, 156
+potus, 157
+matthew, 158
+uscgsoutheast, 159
+wsj, 160
+video, 161
+leopoldolopez, 162
+dcabellor, 163
+puerto rico, 164
+floridagop, 165
+country, 166
+happy birthday, 167
+mellisellis, 168
+hey, 169
+fallontonight, 170
+flformarco, 171
+monroecounty, 172
+kempforum, 173
+zika, 174
+youtube, 175
+sanction, 176
+momentum, 177
+everglade, 178
+clinthreed, 179
+marcorubio today, 180
+marco rubio, 181
+iran, 182
+hurricanematthew evacuation info, 183
+nevadacaucus, 184
+vote today, 185
+chip, 186
+pensacola, 187
+proverb, 188
+votetimscott, 189
+tuesday, 190
+polling, 191
+iowacaucus, 192
+cityofjax, 193
+democracy, 194
+fidelcastro, 195
+senbillnelson, 196
+law, 197
+syria, 198
+jaketapper, 199
+learyreport, 200
+patrickmurphyfl, 201
+commbovo, 202
+watch live, 203
+flgovscott, 204
+floridakey, 205
+tomrooney, 206
+kansas, 207
+veteran, 208
+weekend, 209
+floridian, 210
+power, 211
+tomorrow night, 212
+exclusive, 213
+signed football, 214
+praying, 215
+facethenation, 216
+alexconant, 217
+cnnsotu, 218
+reaganbattalion, 219
+colombia, 220
+hurricanematthew, 221
+jfksaid, 222
+died, 223
+haiti, 224
+uscg, 225
+speakerryan, 226
+dcexaminer, 227
+tgowdysc, 228
+follow our liveblog, 229
+hurricanemaria, 230
+childtaxcredit, 231
+irandeal, 232
+kscaucus, 233
+obamacare, 234
+flsendebate, 235
+nvcaucus, 236
+tpeterson, 237
+ceccgov, 238
+tonyf, 239

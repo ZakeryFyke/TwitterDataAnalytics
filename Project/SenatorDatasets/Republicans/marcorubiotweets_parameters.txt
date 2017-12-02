@@ -1,0 +1,266 @@
+Report of the parameters used to extract co-occurrences in file "marcorubiotweets.csv".
+
+TD-IDF measure used to correct the frequency of terms per docs: true.
+Number of documents in the corpus: 3180.
+Inclusion of n-grams up to (and including) 4-grams.
+Binary or full counting of co-occurrences per document? Binary = true
+Size of the list of most frequent stopwords removed: 5000.
+Only for bigrams and above: size of the list of most frequent stopwords used to filter out: 1809.
+max number of words allowed: 250.
+min nb of occurrences in the entire corpus for a word to be processed: 3.
+min nb of characters for a word to be processed: 3.
+number of words found including n-grams: 6033.
+number of nodes: 239.
+number of edges: 53160070.
+
+
+most frequent words: marcorubio x 4712
+most frequent words: amp x 4560
+most frequent words: teammarco x 2160
+most frequent words: florida x 1510
+most frequent words: gopdebate x 936
+most frequent words: sayfie x 798
+most frequent words: rubio x 774
+most frequent words: tonight x 538
+most frequent words: marco x 517
+most frequent words: venezuela x 510
+most frequent words: proverb x 420
+most frequent words: hurricaneirma x 414
+most frequent words: tomorrow x 405
+most frequent words: rsvp x 392
+most frequent words: marcomentum x 385
+most frequent words: foxnew x 351
+most frequent words: potus x 348
+most frequent words: flsen x 308
+most frequent words: senate x 290
+most frequent words: iacaucus x 287
+most frequent words: fitn x 280
+most frequent words: country x 272
+most frequent words: iowa x 265
+most frequent words: miami x 260
+most frequent words: voted x 258
+most frequent words: flprimary x 252
+most frequent words: rally x 250
+most frequent words: cuba x 243
+most frequent words: trump x 242
+most frequent words: nicolasmaduro x 235
+most frequent words: iran x 222
+most frequent words: marco rubio x 204
+most frequent words: puertorico x 195
+most frequent words: night x 190
+most frequent words: clinthreed x 182
+most frequent words: read x 170
+most frequent words: scprimary x 168
+most frequent words: morning x 162
+most frequent words: fema x 160
+most frequent words: sen x 156
+most frequent words: caucus x 156
+most frequent words: friend x 143
+most frequent words: obama x 139
+most frequent words: voteearlyday x 132
+most frequent words: hampshire x 128
+most frequent words: senator x 128
+most frequent words: realdonaldtrump x 125
+most frequent words: taxreform x 120
+most frequent words: earnit x 119
+most frequent words: nhpolitic x 108
+most frequent words: marcorubio today x 105
+most frequent words: irma x 105
+most frequent words: senrubiopress x 104
+most frequent words: senatortimscott x 102
+most frequent words: twitter x 100
+most frequent words: nikkihaley x 100
+most frequent words: hurricane x 96
+most frequent words: donald trump x 96
+most frequent words: tgowdysc x 96
+most frequent words: hillary clinton x 93
+most frequent words: hear x 90
+most frequent words: uscg x 85
+most frequent words: voter x 84
+most frequent words: flformarco x 84
+most frequent words: scformarco x 80
+most frequent words: lord x 79
+most frequent words: city x 78
+most frequent words: football x 75
+most frequent words: poll x 74
+most frequent words: miamidolphin x 72
+most frequent words: god x 72
+most frequent words: zika x 72
+most frequent words: icymi x 72
+most frequent words: supertuesday x 70
+most frequent words: orlando x 68
+most frequent words: voting x 66
+most frequent words: fidelcastro x 66
+most frequent words: honored x 66
+most frequent words: ivankatrump x 65
+most frequent words: jfksaid x 63
+most frequent words: hurricanematthew x 63
+most frequent words: volunteer x 62
+most frequent words: south carolina x 62
+most frequent words: veteran x 60
+most frequent words: facethenation x 60
+most frequent words: isis x 60
+most frequent words: putin x 57
+most frequent words: gop x 57
+most frequent words: senbillnelson x 55
+most frequent words: chip x 54
+most frequent words: weekend x 54
+most frequent words: senator marcorubio x 54
+most frequent words: awesome x 51
+most frequent words: american dream x 51
+most frequent words: fallontonight x 50
+most frequent words: hard x 50
+most frequent words: myer x 50
+most frequent words: cuban x 49
+most frequent words: floridakey x 48
+most frequent words: looking forward x 48
+most frequent words: liliantintori x 48
+most frequent words: congress x 48
+most frequent words: irandeal x 48
+most frequent words: ricardorossello x 48
+most frequent words: conservative x 47
+most frequent words: emergency x 44
+most frequent words: house x 44
+most frequent words: kscaucus x 44
+most frequent words: govt x 44
+most frequent words: jacksonville x 42
+most frequent words: supporter x 42
+most frequent words: marcorubio amp x 42
+most frequent words: cityofjax x 40
+most frequent words: monroecounty x 40
+most frequent words: jeremysheftel x 40
+most frequent words: father x 39
+most frequent words: betterdealforcuba x 39
+most frequent words: puerto rico x 38
+most frequent words: power x 38
+most frequent words: humanright x 36
+most frequent words: deptofdefense x 36
+most frequent words: vote today x 36
+most frequent words: candidate x 35
+most frequent words: childtaxcredit x 34
+most frequent words: love x 33
+most frequent words: water x 33
+most frequent words: edwgillespie x 32
+most frequent words: pensacola x 32
+most frequent words: reaganbattalion x 32
+most frequent words: marcorubio tonight x 32
+most frequent words: alexconant x 32
+most frequent words: secretarysonny x 32
+most frequent words: statedept x 32
+most frequent words: look forward x 30
+most frequent words: business x 30
+most frequent words: joining x 30
+most frequent words: nevertrump x 30
+most frequent words: mellisellis x 30
+most frequent words: teamrubio x 30
+most frequent words: maduro x 30
+most frequent words: kempforum x 30
+most frequent words: flsendebate x 30
+most frequent words: learyreport x 28
+most frequent words: haiti x 28
+most frequent words: sundayfuture x 28
+most frequent words: demdebate x 28
+most frequent words: wsj x 28
+most frequent words: tonyf x 28
+most frequent words: cnn x 28
+most frequent words: heading x 28
+most frequent words: jaketapper x 28
+most frequent words: castro x 28
+most frequent words: vote early x 27
+most frequent words: rep x 27
+most frequent words: watch live x 27
+most frequent words: patrickmurphyfl x 27
+most frequent words: democracy x 26
+most frequent words: pro x 26
+most frequent words: tweet x 26
+most frequent words: mayor x 24
+most frequent words: congrat x 24
+most frequent words: cnnpolitic x 24
+most frequent words: colombia x 24
+most frequent words: syria x 24
+most frequent words: tomrooney x 24
+most frequent words: thisweekabc x 24
+most frequent words: dcabellor x 24
+most frequent words: patrick murphy x 24
+most frequent words: matthew x 24
+most frequent words: miamiherald x 24
+most frequent words: jeanette x 24
+most frequent words: dictator x 24
+most frequent words: tuesday x 24
+most frequent words: don't wait x 24
+most frequent words: answer x 23
+most frequent words: video x 23
+most frequent words: town hall x 23
+most frequent words: tonight's gopdebate x 22
+most frequent words: war x 22
+most frequent words: momentum x 22
+most frequent words: happy birthday x 22
+most frequent words: reminder x 22
+most frequent words: cruz x 22
+most frequent words: olivia x 22
+most frequent words: jfksaid jfklibrary x 21
+most frequent words: tpeterson x 21
+most frequent words: dcexaminer x 20
+most frequent words: exclusive x 20
+most frequent words: american century x 20
+most frequent words: hurricanemaria x 20
+most frequent words: info x 20
+most frequent words: floridagop x 20
+most frequent words: flgovscott x 20
+most frequent words: cnnsotu x 20
+most frequent words: patriciamazzei x 20
+most frequent words: leopoldolopez x 20
+most frequent words: phone x 20
+most frequent words: hurricaneirma wednesday x 20
+most frequent words: nvcaucus x 20
+most frequent words: obamacare x 20
+most frequent words: nfl x 20
+most frequent words: brookesammon x 20
+most frequent words: died x 20
+most frequent words: speak x 19
+most frequent words: leadership x 19
+most frequent words: iowacaucus x 18
+most frequent words: campaign trail x 18
+most frequent words: today marcorubio x 18
+most frequent words: thanks for coming x 18
+most frequent words: greet x 18
+most frequent words: htt x 18
+most frequent words: kansas x 18
+most frequent words: floridian x 18
+most frequent words: headed x 18
+most frequent words: hurricanematthew evacuation info x 18
+most frequent words: tampabay x 18
+most frequent words: polling x 18
+most frequent words: follow our liveblog x 18
+most frequent words: presidential x 18
+most frequent words: terrorist x 18
+most frequent words: kid x 17
+most frequent words: sanction x 17
+most frequent words: voted for marcorubio x 17
+most frequent words: ceccgov x 16
+most frequent words: speakerryan x 16
+most frequent words: poor x 16
+most frequent words: here's why x 16
+most frequent words: tax reform x 16
+most frequent words: signed football x 16
+most frequent words: sticker x 16
+most frequent words: nevadacaucus x 16
+most frequent words: votetimscott x 16
+most frequent words: commbovo x 16
+most frequent words: seanhannity x 16
+most frequent words: hey x 16
+most frequent words: uscgsoutheast x 16
+most frequent words: praying x 16
+most frequent words: everglade x 16
+most frequent words: polls are open x 16
+most frequent words: don't miss x 16
+most frequent words: vote for marcorubio x 16
+most frequent words: that's why x 16
+most frequent words: law x 16
+most frequent words: youtube x 16
+most frequent words: secprimary x 16
+most frequent words: burgosgop x 16
+most frequent words: hurricaneirma thursday x 15
+most frequent words: florida amp x 15
+most frequent words: marcorubio teammarco x 15
+most frequent words: tomorrow night x 15

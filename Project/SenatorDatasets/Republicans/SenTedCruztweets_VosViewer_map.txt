@@ -1,0 +1,241 @@
+label,id
+sentedcruz, 1
+senatorlankford, 2
+space station, 3
+sen, 4
+power, 5
+water, 6
+cnn, 7
+taxpayer, 8
+nuclear, 9
+congrat, 10
+city, 11
+internet giveaway, 12
+border security, 13
+kredo, 14
+obama admin, 15
+neverforget, 16
+fullrepeal, 17
+obama, 18
+senate floor, 19
+tedcruz, 20
+seanhannity, 21
+hear, 22
+house, 23
+leadership, 24
+watch live, 25
+repseanduffy, 26
+video, 27
+oversight, 28
+cspan, 29
+reagan, 30
+foxbusiness, 31
+harvey, 32
+icymi, 33
+info, 34
+potus, 35
+ally, 36
+responder, 37
+govabbott, 38
+dallas, 39
+senate, 40
+gov, 41
+catblackfrazier, 42
+amp, 43
+cnndebatenight, 44
+confirmation, 45
+potu, 46
+friend, 47
+houston, 48
+united states, 49
+markdavis, 50
+senjudiciary, 51
+confirmgorsuch, 52
+border patrol, 53
+rio, 54
+speak, 55
+tonight, 56
+hurricane, 57
+taxe, 58
+honored, 59
+politico, 60
+cuba, 61
+johncornyn, 62
+repeal, 63
+senator ted cruz, 64
+terrorism, 65
+houstonpolice, 66
+tax reform, 67
+senator, 68
+businesses, 69
+tour, 70
+morning, 71
+nro, 72
+law, 73
+chuckgrassley, 74
+night, 75
+hannity, 76
+country, 77
+texan, 78
+gorsuch, 79
+obamacare, 80
+urge, 81
+nasa johnson, 82
+republican, 83
+fox, 84
+rgv, 85
+fema, 86
+abc, 87
+amct, 88
+trump, 89
+tax cut, 90
+women, 91
+internetfreedom, 92
+redcross, 93
+senatecommerce, 94
+congress, 95
+economic growth, 96
+foxnew, 97
+patricksvitek, 98
+castro, 99
+weatherchannel, 100
+ted cruz, 101
+wsjopinion, 102
+justicewillett, 103
+whywemarch, 104
+internet, 105
+iran, 106
+strengthen, 107
+terrorist, 108
+heidi, 109
+texasstrong, 110
+gop, 111
+veteran, 112
+sanantonio, 113
+read, 114
+dallasnew, 115
+usa, 116
+txdp, 117
+mayor, 118
+amendment, 119
+scotus, 120
+satxpolice, 121
+facethenation, 122
+joining, 123
+heritage, 124
+accountable, 125
+maduro, 126
+usnavy, 127
+thehill, 128
+readyharris, 129
+taxfoundation, 130
+marchforlife, 131
+taxreform, 132
+dailysignal, 133
+discussing, 134
+concernedvet, 135
+space exploration, 136
+north korea, 137
+impacted, 138
+freebeacon, 139
+michaelberrysho, 140
+pmct, 141
+national security, 142
+reminder, 143
+texasindependenceday, 144
+hcsotexas, 145
+healthcare, 146
+cpac, 147
+nasa, 148
+senatefloor, 149
+democrat, 150
+htt, 151
+txpo, 152
+austin, 153
+rebuild, 154
+wfaachannel, 155
+beaumont, 156
+stop obama, 157
+repmccaul, 158
+schoolchoice, 159
+casandralgarcia, 160
+thisweekabc, 161
+happy birthday, 162
+hurricaneharvey, 163
+tppf, 164
+attorney, 165
+repdesantis, 166
+fedsoc, 167
+god, 168
+washtime, 169
+roslehtinen, 170
+unesco, 171
+resurgent, 172
+judge gorsuch, 173
+theblaze, 174
+dcexaminer, 175
+talkingtax, 176
+premium, 177
+breakingnew, 178
+texanshelpingtexan, 179
+protecting, 180
+venezuela, 181
+uscg, 182
+islamic terrorism, 183
+rancher, 184
+agissue, 185
+txlege, 186
+congratulation, 187
+senmikelee, 188
+thx, 189
+agriculture, 190
+tuckercarlson, 191
+lindseygrahamsc, 192
+icann, 193
+morning joe, 194
+texasvlb, 195
+kprc, 196
+treywareshow, 197
+ktsanew, 198
+flooding, 199
+kateslaw, 200
+radiotalkermike, 201
+sbasouthcentral, 202
+hope you'll tune, 203
+foxandfriend, 204
+senatorleahy, 205
+netanyahu, 206
+nikkihaley, 207
+tuesday coffee, 208
+houstonstrong, 209
+full interview, 210
+internet freedom, 211
+repmarkmeadow, 212
+usarmy, 213
+floodwater, 214
+texastribune, 215
+liu, 216
+fidel, 217
+femaregion, 218
+pearlharbor, 219
+exclusive, 220
+senatorsession, 221
+supreme court, 222
+govt, 223
+volunteer, 224
+houwx, 225
+wbap, 226
+joetalkshow, 227
+speakerryan, 228
+houstonchron, 229
+prolife, 230
+veteransday, 231
+freeliuxiaobo, 232
+otd, 233
+mariabartiromo, 234
+northkorea, 235
+repratcliffe, 236
+marklevinshow, 237
+txmilitary, 238
+nwshouston, 239
+texas tuesday coffee, 240

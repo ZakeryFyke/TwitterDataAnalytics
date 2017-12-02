@@ -1,0 +1,266 @@
+Report of the parameters used to extract co-occurrences in file "SenTedCruztweets.csv".
+
+TD-IDF measure used to correct the frequency of terms per docs: true.
+Number of documents in the corpus: 3200.
+Inclusion of n-grams up to (and including) 4-grams.
+Binary or full counting of co-occurrences per document? Binary = true
+Size of the list of most frequent stopwords removed: 5000.
+Only for bigrams and above: size of the list of most frequent stopwords used to filter out: 1809.
+max number of words allowed: 250.
+min nb of occurrences in the entire corpus for a word to be processed: 3.
+min nb of characters for a word to be processed: 3.
+number of words found including n-grams: 6462.
+number of nodes: 240.
+number of edges: 44437721.
+
+
+most frequent words: amp x 7200
+most frequent words: sentedcruz x 2650
+most frequent words: tedcruz x 1806
+most frequent words: harvey x 1690
+most frequent words: internet x 1160
+most frequent words: potus x 860
+most frequent words: obamacare x 707
+most frequent words: texan x 706
+most frequent words: houston x 689
+most frequent words: foxnew x 585
+most frequent words: obama x 573
+most frequent words: govabbott x 552
+most frequent words: ted cruz x 515
+most frequent words: morning x 510
+most frequent words: iran x 452
+most frequent words: icymi x 420
+most frequent words: congress x 392
+most frequent words: senator x 342
+most frequent words: fedsoc x 340
+most frequent words: gorsuch x 326
+most frequent words: terrorism x 310
+most frequent words: abc x 296
+most frequent words: law x 295
+most frequent words: senate x 270
+most frequent words: senjudiciary x 270
+most frequent words: sen x 252
+most frequent words: kredo x 245
+most frequent words: johncornyn x 234
+most frequent words: nasa x 230
+most frequent words: watch live x 228
+most frequent words: cpac x 200
+most frequent words: amct x 200
+most frequent words: freebeacon x 189
+most frequent words: foxbusiness x 189
+most frequent words: obama admin x 184
+most frequent words: fema x 181
+most frequent words: senmikelee x 180
+most frequent words: repeal x 175
+most frequent words: repmarkmeadow x 171
+most frequent words: scotus x 170
+most frequent words: tonight x 170
+most frequent words: cspan x 154
+most frequent words: house x 148
+most frequent words: dcexaminer x 144
+most frequent words: cuba x 140
+most frequent words: taxreform x 132
+most frequent words: readyharris x 132
+most frequent words: usa x 128
+most frequent words: icann x 126
+most frequent words: justicewillett x 126
+most frequent words: roslehtinen x 120
+most frequent words: liu x 118
+most frequent words: patricksvitek x 117
+most frequent words: country x 116
+most frequent words: cnndebatenight x 114
+most frequent words: rebuild x 112
+most frequent words: women x 111
+most frequent words: joining x 110
+most frequent words: pmct x 110
+most frequent words: otd x 108
+most frequent words: hurricaneharvey x 108
+most frequent words: healthcare x 100
+most frequent words: internet giveaway x 100
+most frequent words: rio x 98
+most frequent words: dallas x 96
+most frequent words: potu x 95
+most frequent words: joetalkshow x 91
+most frequent words: volunteer x 91
+most frequent words: catblackfrazier x 91
+most frequent words: nasa johnson x 90
+most frequent words: abc houston x 90
+most frequent words: internetfreedom x 90
+most frequent words: repseanduffy x 88
+most frequent words: senatecommerce x 85
+most frequent words: marchforlife x 84
+most frequent words: hurricane x 81
+most frequent words: castro x 81
+most frequent words: venezuela x 80
+most frequent words: veteran x 80
+most frequent words: neverforget x 78
+most frequent words: rgv x 77
+most frequent words: seanhannity x 76
+most frequent words: fullrepeal x 72
+most frequent words: heidi x 72
+most frequent words: femaregion x 72
+most frequent words: democrat x 71
+most frequent words: michaelberrysho x 70
+most frequent words: nro x 70
+most frequent words: leadership x 70
+most frequent words: tuesday coffee x 69
+most frequent words: foxandfriend x 68
+most frequent words: taxfoundation x 66
+most frequent words: congrat x 66
+most frequent words: senator tedcruz x 66
+most frequent words: islamic terrorism x 66
+most frequent words: protecting x 66
+most frequent words: txmilitary x 66
+most frequent words: northkorea x 66
+most frequent words: responder x 64
+most frequent words: marklevinshow x 64
+most frequent words: urge x 63
+most frequent words: oversight x 63
+most frequent words: ktsanew x 63
+most frequent words: fox x 63
+most frequent words: htt x 63
+most frequent words: internet freedom x 63
+most frequent words: txpo x 63
+most frequent words: night x 60
+most frequent words: congratulation x 60
+most frequent words: sentedcruz amp x 60
+most frequent words: heritage x 60
+most frequent words: honored x 60
+most frequent words: power x 59
+most frequent words: businesses x 58
+most frequent words: video x 57
+most frequent words: happy birthday x 57
+most frequent words: resurgent x 56
+most frequent words: treywareshow x 56
+most frequent words: tuckercarlson x 56
+most frequent words: ally x 56
+most frequent words: thisweekabc x 56
+most frequent words: lindseygrahamsc x 56
+most frequent words: nikkihaley x 56
+most frequent words: sbasouthcentral x 55
+most frequent words: houstonstrong x 55
+most frequent words: confirmgorsuch x 54
+most frequent words: supreme court x 54
+most frequent words: tour x 53
+most frequent words: texasvlb x 52
+most frequent words: beaumont x 52
+most frequent words: tax reform x 51
+most frequent words: senator ted cruz x 51
+most frequent words: water x 50
+most frequent words: kprc x 49
+most frequent words: theblaze x 49
+most frequent words: space exploration x 48
+most frequent words: agriculture x 48
+most frequent words: cnn x 48
+most frequent words: dallasnew x 48
+most frequent words: accountable x 45
+most frequent words: north korea x 45
+most frequent words: austin x 45
+most frequent words: maduro x 45
+most frequent words: senatorleahy x 45
+most frequent words: judge gorsuch x 44
+most frequent words: markdavis x 44
+most frequent words: full interview x 44
+most frequent words: senatorlankford x 44
+most frequent words: friend x 43
+most frequent words: trump x 43
+most frequent words: exclusive x 42
+most frequent words: amp women x 42
+most frequent words: gop x 42
+most frequent words: texasstrong x 42
+most frequent words: freeliuxiaobo x 42
+most frequent words: thehill x 42
+most frequent words: houstonchron x 40
+most frequent words: thx x 40
+most frequent words: info x 40
+most frequent words: netanyahu x 40
+most frequent words: redcross x 40
+most frequent words: houstonpolice x 40
+most frequent words: hcsotexas x 40
+most frequent words: talkingtax x 40
+most frequent words: rancher x 39
+most frequent words: kateslaw x 39
+most frequent words: premium x 37
+most frequent words: speak x 37
+most frequent words: discussing x 36
+most frequent words: taxe x 36
+most frequent words: radiotalkermike x 36
+most frequent words: hannity x 36
+most frequent words: morning joe x 36
+most frequent words: tppf x 36
+most frequent words: national security x 36
+most frequent words: casandralgarcia x 36
+most frequent words: fidel x 36
+most frequent words: texanshelpingtexan x 36
+most frequent words: senate floor x 36
+most frequent words: unesco x 34
+most frequent words: nuclear x 34
+most frequent words: confirmation x 34
+most frequent words: flooding x 34
+most frequent words: impacted x 33
+most frequent words: schoolchoice x 33
+most frequent words: terrorist x 33
+most frequent words: texas tuesday coffee x 33
+most frequent words: txdp x 32
+most frequent words: senatefloor x 32
+most frequent words: usarmy x 32
+most frequent words: economic growth x 32
+most frequent words: repdesantis x 32
+most frequent words: chuckgrassley x 32
+most frequent words: nwshouston x 32
+most frequent words: govt x 32
+most frequent words: read x 32
+most frequent words: hear x 32
+most frequent words: amendment x 31
+most frequent words: wbap x 30
+most frequent words: txlege x 30
+most frequent words: god x 30
+most frequent words: agissue x 30
+most frequent words: hope you'll tune x 30
+most frequent words: whywemarch x 30
+most frequent words: border patrol x 30
+most frequent words: reagan x 30
+most frequent words: amp protect x 30
+most frequent words: city x 29
+most frequent words: strengthen x 28
+most frequent words: mayor x 28
+most frequent words: senatorsession x 28
+most frequent words: texastribune x 28
+most frequent words: concernedvet x 28
+most frequent words: washtime x 28
+most frequent words: sanantonio x 28
+most frequent words: stop obama x 28
+most frequent words: dailysignal x 28
+most frequent words: usnavy x 28
+most frequent words: space station x 28
+most frequent words: texasindependenceday x 28
+most frequent words: uscg x 28
+most frequent words: politico x 28
+most frequent words: veteransday x 27
+most frequent words: border security x 27
+most frequent words: gov x 27
+most frequent words: taxpayer x 27
+most frequent words: texas amp x 27
+most frequent words: heidi amp x 26
+most frequent words: houwx x 25
+most frequent words: united states x 25
+most frequent words: republican x 25
+most frequent words: speakerryan x 24
+most frequent words: floodwater x 24
+most frequent words: attorney x 24
+most frequent words: repmccaul x 24
+most frequent words: protect internetfreedom x 24
+most frequent words: weatherchannel x 24
+most frequent words: prolife x 24
+most frequent words: satxpolice x 24
+most frequent words: tax cut x 24
+most frequent words: mariabartiromo x 24
+most frequent words: breakingnew x 24
+most frequent words: wfaachannel x 24
+most frequent words: pearlharbor x 24
+most frequent words: repratcliffe x 24
+most frequent words: reminder x 24
+most frequent words: facethenation x 24
+most frequent words: wsjopinion x 24
+most frequent words: roslehtinen amp x 24
+most frequent words: johncornyn amp x 24

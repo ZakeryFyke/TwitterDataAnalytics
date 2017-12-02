@@ -1,0 +1,6 @@
+label,id
+sentedcruz, 1
+senate, 2
+amp, 3
+tax cut, 4
+united states, 5

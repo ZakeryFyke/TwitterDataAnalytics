@@ -1,0 +1,23 @@
+Report of the parameters used to extract co-occurrences in file "test_tweets.txt".
+
+TD-IDF measure used to correct the frequency of terms per docs: true.
+Number of documents in the corpus: 51.
+Inclusion of n-grams up to (and including) 4-grams.
+Binary or full counting of co-occurrences per document? Binary = true
+Size of the list of most frequent stopwords removed: 5000.
+Only for bigrams and above: size of the list of most frequent stopwords used to filter out: 1809.
+max number of words allowed: 250.
+min nb of occurrences in the entire corpus for a word to be processed: 3.
+min nb of characters for a word to be processed: 3.
+number of words found including n-grams: 62.
+number of nodes: 5.
+number of edges: 9145.
+
+
+most frequent words: amp x 52
+most frequent words: sentedcruz x 8
+most frequent words: potus x 6
+most frequent words: tax cut x 5
+most frequent words: balfour declaration x 3
+most frequent words: senate x 3
+most frequent words: united states x 3
